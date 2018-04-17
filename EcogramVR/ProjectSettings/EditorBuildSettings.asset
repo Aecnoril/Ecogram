@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_scenes/Autum scene.unity
+    guid: 00d9b05928fceaf4c9497d92c8277dc8
