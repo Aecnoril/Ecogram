@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace NewtonVR
 {
-    public class NVRLetterSpinner : NVRInteractableRotator
+    public class LetterSpinner : NVRInteractableRotator
     {
         private static string LETTERLIST = "ABCDEFGHIJKLMNOPQRSTUVWXYZ?";
 

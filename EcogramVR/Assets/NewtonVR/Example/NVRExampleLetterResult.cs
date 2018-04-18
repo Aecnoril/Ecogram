@@ -5,7 +5,7 @@ namespace NewtonVR.Example
 {
     public class NVRExampleLetterResult : MonoBehaviour
     {
-        public NVRLetterSpinner LetterSpinner;
+        public LetterSpinner LetterSpinner;
 
         private TextMesh Text;
 

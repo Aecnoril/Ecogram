@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnKarakter : MonoBehaviour {
+public class SpawnCharacter : MonoBehaviour {
 
     public Transform Spawnpoint;
-    public GameObject Prefab;
+    public GameObject characterPrefab;
+    public GameObject spinnerPrefab;
 
     private float CooldownStart = 0f;
     private float Cooldown = 2f;
@@ -15,9 +16,7 @@ public class SpawnKarakter : MonoBehaviour {
 
         if (Time.time > CooldownStart + Cooldown)
         {
-
-            Instantiate(Prefab, Spawnpoint.position, Spawnpoint.rotation);
-
+            InitializeCharacter();
         }
 
         CooldownStart = Time.time;
@@ -27,4 +26,9 @@ public class SpawnKarakter : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    void InitializeCharacter()
+    {
+        Instantiate(characterPrefab, Spawnpoint.position, Spawnpoint.rotation);
+    }
 }
