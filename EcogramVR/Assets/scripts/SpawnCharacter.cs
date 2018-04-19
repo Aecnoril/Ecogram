@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Assets.scripts.Backend;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,19 +17,9 @@ public class SpawnCharacter : MonoBehaviour {
 
         if (Time.time > CooldownStart + Cooldown)
         {
-            InitializeCharacter();
+            CharacterManager.instance.CreateCharacter(Spawnpoint.position, Spawnpoint.rotation);
         }
 
         CooldownStart = Time.time;
-    }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-    void InitializeCharacter()
-    {
-        Instantiate(characterPrefab, Spawnpoint.position, Spawnpoint.rotation);
     }
 }
