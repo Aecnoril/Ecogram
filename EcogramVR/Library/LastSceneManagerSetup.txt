@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_scenes/VRIntro.unity
+- path: Assets/_scenes/ui.unity
   isLoaded: 1
   isActive: 1
