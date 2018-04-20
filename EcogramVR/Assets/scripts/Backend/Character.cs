@@ -44,7 +44,13 @@ namespace Assets.scripts.Backend
         }
         #endregion
 
+        /// <summary>
+        /// Opens character menu facing the player
+        /// </summary>
+        public void OpenMenu()
+        {
 
+        }
 
     }
 }
