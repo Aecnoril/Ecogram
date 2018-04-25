@@ -1102,6 +1102,7 @@ GameObject:
   - component: {fileID: 404139151}
   - component: {fileID: 404139150}
   - component: {fileID: 404139149}
+  - component: {fileID: 404139155}
   m_Layer: 0
   m_Name: goed
   m_TagString: Untagged
@@ -1251,6 +1252,21 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!54 &404139155
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 404139147}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 14
+  m_CollisionDetection: 0
 --- !u!1 &474141871
 GameObject:
   m_ObjectHideFlags: 0
@@ -2094,7 +2110,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 260.1, y: 1.325}
+  m_AnchoredPosition: {x: 260.479, y: 1.325}
   m_SizeDelta: {x: 95, y: 94.2245}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &984316341
@@ -2114,7 +2130,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 229.43
+      value: 238.86
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
       propertyPath: m_LocalRotation.x
@@ -3560,6 +3576,7 @@ GameObject:
   - component: {fileID: 1819846292}
   - component: {fileID: 1819846291}
   - component: {fileID: 1819846290}
+  - component: {fileID: 1819846296}
   m_Layer: 0
   m_Name: super goed
   m_TagString: Untagged
@@ -3709,6 +3726,21 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!54 &1819846296
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1819846288}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 14
+  m_CollisionDetection: 0
 --- !u!1 &1825158684
 GameObject:
   m_ObjectHideFlags: 0
@@ -3791,6 +3823,7 @@ GameObject:
   - component: {fileID: 1829582234}
   - component: {fileID: 1829582233}
   - component: {fileID: 1829582232}
+  - component: {fileID: 1829582238}
   m_Layer: 0
   m_Name: neutraal
   m_TagString: Untagged
@@ -3940,6 +3973,21 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!54 &1829582238
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1829582230}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 14
+  m_CollisionDetection: 0
 --- !u!1 &1845082225
 GameObject:
   m_ObjectHideFlags: 0
@@ -4618,6 +4666,7 @@ GameObject:
   - component: {fileID: 2031089909}
   - component: {fileID: 2031089908}
   - component: {fileID: 2031089907}
+  - component: {fileID: 2031089913}
   m_Layer: 0
   m_Name: slecht
   m_TagString: Untagged
@@ -4767,6 +4816,21 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!54 &2031089913
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2031089905}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 14
+  m_CollisionDetection: 0
 --- !u!1001 &2038752931
 Prefab:
   m_ObjectHideFlags: 0
@@ -4831,6 +4895,7 @@ GameObject:
   - component: {fileID: 2040785886}
   - component: {fileID: 2040785885}
   - component: {fileID: 2040785884}
+  - component: {fileID: 2040785890}
   m_Layer: 0
   m_Name: super slecht
   m_TagString: Untagged
@@ -4980,6 +5045,21 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!54 &2040785890
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2040785882}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 14
+  m_CollisionDetection: 0
 --- !u!1 &2049963439
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - zeer slecht
+  - slecht
+  - neutraal
+  - goed
+  - zeer goed
   layers:
   - Default
   - TransparentFX
@@ -13,7 +18,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - emotie
   - 
   - 
   - 
@@ -38,6 +43,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: emotie
+    uniqueID: 2317014949
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class togglebutton : MonoBehaviour {
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider col)
     {
-        Debug.Log(gameObject.name + " was triggered by " + other.gameObject.name);
+        Debug.Log(gameObject.name + " was triggered by " + col.gameObject.name);
     }
 }
