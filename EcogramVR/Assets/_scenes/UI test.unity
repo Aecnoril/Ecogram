@@ -848,7 +848,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &132875530
 GameObject:
@@ -1856,7 +1856,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 11445746, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
       propertyPath: floorFixupTraceLayerMask.m_Bits
@@ -1943,8 +1943,50 @@ Transform:
   m_Children:
   - {fileID: 1486974236}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &257715392
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400024, guid: e355c774b7672da4fb60a0e33a7123e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 261.6894
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e355c774b7672da4fb60a0e33a7123e2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3817175
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e355c774b7672da4fb60a0e33a7123e2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 244.83026
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e355c774b7672da4fb60a0e33a7123e2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e355c774b7672da4fb60a0e33a7123e2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e355c774b7672da4fb60a0e33a7123e2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e355c774b7672da4fb60a0e33a7123e2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400024, guid: e355c774b7672da4fb60a0e33a7123e2, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e355c774b7672da4fb60a0e33a7123e2, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &259268833
 GameObject:
   m_ObjectHideFlags: 0
@@ -1954,8 +1996,10 @@ GameObject:
   m_Component:
   - component: {fileID: 259268834}
   - component: {fileID: 259268835}
+  - component: {fileID: 259268836}
+  - component: {fileID: 259268837}
   m_Layer: 0
-  m_Name: Toggle slecht (2)
+  m_Name: Toggle goed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2025,6 +2069,29 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!135 &259268836
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 259268833}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8.583752
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &259268837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 259268833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d5ffcf9faad394db230d903e7ae79e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &270786795
 GameObject:
   m_ObjectHideFlags: 0
@@ -2172,6 +2239,7 @@ GameObject:
   - component: {fileID: 292427187}
   - component: {fileID: 292427189}
   - component: {fileID: 292427188}
+  - component: {fileID: 292427190}
   m_Layer: 0
   m_Name: Toggle educatie
   m_TagString: Untagged
@@ -2262,6 +2330,18 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!135 &292427190
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 292427186}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8.583752
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &319276557
 GameObject:
   m_ObjectHideFlags: 0
@@ -2483,8 +2563,9 @@ GameObject:
   - component: {fileID: 366254619}
   - component: {fileID: 366254621}
   - component: {fileID: 366254620}
+  - component: {fileID: 366254622}
   m_Layer: 0
-  m_Name: Toggle emotioneel (1)
+  m_Name: Toggle gezelgschap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2573,6 +2654,18 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!135 &366254622
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 366254618}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8.583752
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &375628018
 GameObject:
   m_ObjectHideFlags: 0
@@ -2613,7 +2706,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &399672203
 GameObject:
@@ -2683,6 +2776,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 399672203}
+--- !u!1001 &401237590
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4741246983209622, guid: d798dcc9ef494ab409b16af686dc87fc, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 259.58493
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741246983209622, guid: d798dcc9ef494ab409b16af686dc87fc, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.1450001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741246983209622, guid: d798dcc9ef494ab409b16af686dc87fc, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 243.09889
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741246983209622, guid: d798dcc9ef494ab409b16af686dc87fc, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741246983209622, guid: d798dcc9ef494ab409b16af686dc87fc, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741246983209622, guid: d798dcc9ef494ab409b16af686dc87fc, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741246983209622, guid: d798dcc9ef494ab409b16af686dc87fc, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741246983209622, guid: d798dcc9ef494ab409b16af686dc87fc, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d798dcc9ef494ab409b16af686dc87fc, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &403396150
 GameObject:
   m_ObjectHideFlags: 0
@@ -2945,6 +3080,7 @@ GameObject:
   - component: {fileID: 416513139}
   - component: {fileID: 416513141}
   - component: {fileID: 416513140}
+  - component: {fileID: 416513142}
   m_Layer: 0
   m_Name: Toggle emotioneel
   m_TagString: Untagged
@@ -3035,6 +3171,60 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!135 &416513142
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 416513138}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8.583752
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &437763511
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4869458703786304, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 259.15344
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869458703786304, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.1450001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869458703786304, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 243.14557
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869458703786304, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869458703786304, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869458703786304, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869458703786304, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869458703786304, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &443786788
 GameObject:
   m_ObjectHideFlags: 0
@@ -3591,8 +3781,9 @@ GameObject:
   - component: {fileID: 546757512}
   - component: {fileID: 546757514}
   - component: {fileID: 546757513}
+  - component: {fileID: 546757515}
   m_Layer: 0
-  m_Name: Toggle emotioneel (2)
+  m_Name: Toggle praktisch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3681,6 +3872,18 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!135 &546757515
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 546757511}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8.583752
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &550468962
 GameObject:
   m_ObjectHideFlags: 0
@@ -3690,6 +3893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 550468963}
   - component: {fileID: 550468964}
+  - component: {fileID: 550468965}
   m_Layer: 0
   m_Name: Toggle drank
   m_TagString: Untagged
@@ -3761,6 +3965,18 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!135 &550468965
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 550468962}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8.583752
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &557310901
 GameObject:
   m_ObjectHideFlags: 0
@@ -4655,6 +4871,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 677315264}
+--- !u!1001 &685241618
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4094933437662876, guid: f3ec515fd0650d2499df96422de48483, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 258.51624
+      objectReference: {fileID: 0}
+    - target: {fileID: 4094933437662876, guid: f3ec515fd0650d2499df96422de48483, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.1450001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4094933437662876, guid: f3ec515fd0650d2499df96422de48483, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 243.04573
+      objectReference: {fileID: 0}
+    - target: {fileID: 4094933437662876, guid: f3ec515fd0650d2499df96422de48483, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4094933437662876, guid: f3ec515fd0650d2499df96422de48483, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4094933437662876, guid: f3ec515fd0650d2499df96422de48483, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4094933437662876, guid: f3ec515fd0650d2499df96422de48483, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4094933437662876, guid: f3ec515fd0650d2499df96422de48483, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f3ec515fd0650d2499df96422de48483, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &690525203
 GameObject:
   m_ObjectHideFlags: 0
@@ -5401,8 +5659,9 @@ GameObject:
   - component: {fileID: 772308613}
   - component: {fileID: 772308615}
   - component: {fileID: 772308614}
+  - component: {fileID: 772308616}
   m_Layer: 0
-  m_Name: Toggle emotioneel (3)
+  m_Name: Toggle informatie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5491,6 +5750,18 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!135 &772308616
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 772308612}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8.583752
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &776017357
 GameObject:
   m_ObjectHideFlags: 0
@@ -5962,8 +6233,10 @@ GameObject:
   m_Component:
   - component: {fileID: 823858969}
   - component: {fileID: 823858970}
+  - component: {fileID: 823858971}
+  - component: {fileID: 823858972}
   m_Layer: 0
-  m_Name: Toggle slecht (3)
+  m_Name: Toggle zeer goed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6033,6 +6306,29 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!135 &823858971
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 823858968}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8.583752
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &823858972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 823858968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d5ffcf9faad394db230d903e7ae79e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &838063423
 GameObject:
   m_ObjectHideFlags: 0
@@ -6110,8 +6406,10 @@ GameObject:
   m_Component:
   - component: {fileID: 845624462}
   - component: {fileID: 845624463}
+  - component: {fileID: 845624464}
+  - component: {fileID: 845624465}
   m_Layer: 0
-  m_Name: Toggle slecht (1)
+  m_Name: Toggle neutraal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6181,6 +6479,29 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!135 &845624464
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 845624461}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8.583752
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &845624465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 845624461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d5ffcf9faad394db230d903e7ae79e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &866455079
 GameObject:
   m_ObjectHideFlags: 0
@@ -6374,7 +6695,7 @@ RectTransform:
   - {fileID: 576287764}
   - {fileID: 1853420313}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6712,7 +7033,7 @@ RectTransform:
   - {fileID: 776017358}
   - {fileID: 189292919}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7124,7 +7445,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114000011983135080, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
@@ -7988,6 +8309,8 @@ GameObject:
   - component: {fileID: 1243230519}
   - component: {fileID: 1243230521}
   - component: {fileID: 1243230520}
+  - component: {fileID: 1243230522}
+  - component: {fileID: 1243230523}
   m_Layer: 0
   m_Name: Toggle zeer slecht
   m_TagString: Untagged
@@ -8002,7 +8325,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1243230518}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 866455080}
@@ -8078,6 +8401,29 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!135 &1243230522
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1243230518}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8.583752
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1243230523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1243230518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d5ffcf9faad394db230d903e7ae79e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1262096419
 GameObject:
   m_ObjectHideFlags: 0
@@ -8147,6 +8493,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1262096419}
+--- !u!1001 &1272224353
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4599589543335610, guid: b402e30f57a2d234b8762d305b1310c5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 257.94797
+      objectReference: {fileID: 0}
+    - target: {fileID: 4599589543335610, guid: b402e30f57a2d234b8762d305b1310c5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.1450001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4599589543335610, guid: b402e30f57a2d234b8762d305b1310c5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 243.12708
+      objectReference: {fileID: 0}
+    - target: {fileID: 4599589543335610, guid: b402e30f57a2d234b8762d305b1310c5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4599589543335610, guid: b402e30f57a2d234b8762d305b1310c5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4599589543335610, guid: b402e30f57a2d234b8762d305b1310c5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4599589543335610, guid: b402e30f57a2d234b8762d305b1310c5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4599589543335610, guid: b402e30f57a2d234b8762d305b1310c5, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b402e30f57a2d234b8762d305b1310c5, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1300720975
 GameObject:
   m_ObjectHideFlags: 0
@@ -9112,6 +9500,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1516514404}
   - component: {fileID: 1516514405}
+  - component: {fileID: 1516514406}
   m_Layer: 0
   m_Name: Toggle huis
   m_TagString: Untagged
@@ -9183,6 +9572,18 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!135 &1516514406
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1516514403}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8.583752
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1522576298
 GameObject:
   m_ObjectHideFlags: 0
@@ -9257,6 +9658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1523309500}
   - component: {fileID: 1523309501}
+  - component: {fileID: 1523309502}
   m_Layer: 0
   m_Name: Toggle gezondheid
   m_TagString: Untagged
@@ -9328,6 +9730,18 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!135 &1523309502
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1523309499}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8.583752
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1542964640
 GameObject:
   m_ObjectHideFlags: 0
@@ -9397,6 +9811,52 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1542964640}
+--- !u!1001 &1577824373
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4869458703786304, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 259.30826
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869458703786304, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.1450001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869458703786304, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 242.8096
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869458703786304, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869458703786304, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869458703786304, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869458703786304, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869458703786304, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1890709053094796, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+      propertyPath: m_Name
+      value: polaroid picture (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c32893cfc8e78fe4e92adb719309ba41, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1585556001
 GameObject:
   m_ObjectHideFlags: 0
@@ -11201,7 +11661,7 @@ RectTransform:
   - {fileID: 403396151}
   - {fileID: 1092438670}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11877,7 +12337,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7988ab7dd50449449894eb3915939aac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11927,7 +12387,7 @@ Transform:
   m_LocalScale: {x: 1.1891745, y: 1, z: 2.6951482}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 86.481, z: 0}
 --- !u!1 &1873264976
 GameObject:
@@ -12487,6 +12947,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2001750959}
   - component: {fileID: 2001750960}
+  - component: {fileID: 2001750961}
+  - component: {fileID: 2001750962}
   m_Layer: 0
   m_Name: Toggle slecht
   m_TagString: Untagged
@@ -12558,6 +13020,29 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!135 &2001750961
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2001750958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8.583752
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2001750962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2001750958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d5ffcf9faad394db230d903e7ae79e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2004991954
 GameObject:
   m_ObjectHideFlags: 0
@@ -12937,7 +13422,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 11479906, guid: 73ac470d3d909d645a6c89a4664b6849, type: 2}
       propertyPath: title
@@ -13617,6 +14102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2139028892}
   - component: {fileID: 2139028893}
+  - component: {fileID: 2139028894}
   m_Layer: 0
   m_Name: Toggle drugs
   m_TagString: Untagged
@@ -13688,6 +14174,18 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!135 &2139028894
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2139028891}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8.583752
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2146262127
 GameObject:
   m_ObjectHideFlags: 0

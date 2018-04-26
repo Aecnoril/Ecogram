@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 126
+  controlID: 28
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,7 +94,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 124
+  controlID: 26
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 125
+  controlID: 27
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -299,19 +299,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/visuals/icons2/ui/icons2/1x
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/visuals/icons2/ui/icons2/1x
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Mauro\Documents\fontys\stage\ecogram\EcogramVR
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 383}
-    m_SelectedIDs: 962e0000
-    m_LastClickedID: 11926
-    m_ExpandedIDs: 00000000922a0000ba2b0000222c0000462c00001e2d0000202d0000da2d00001a2e0000322f0000c02f0000c42f00003c310000623100000a340000c83400000e3500000436000068360000083d00000a3d00000c3d00000e3d0000103d0000123d0000143d000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 922a0000
+    m_LastClickedID: 10898
+    m_ExpandedIDs: 00000000922a0000ba2b0000222c0000462c0000222d0000242d0000de2d00001e2e00003a2f0000c82f0000cc2f0000443100006a31000012340000d0340000163500000c36000070360000d83f0000da3f0000dc3f0000de3f0000e03f0000e23f0000e43f0000424100006841000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -339,7 +339,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000922a0000ba2b0000222c0000462c00001e2d0000202d0000da2d00001a2e0000322f0000c02f0000c42f00003c310000623100000a340000c83400000e3500000436000068360000083d00000a3d00000c3d00000e3d0000103d0000123d0000143d0000
+    m_ExpandedIDs: 00000000922a0000ba2b0000222c0000462c0000222d0000242d0000de2d00001e2e00003a2f0000c82f0000cc2f0000443100006a31000012340000d0340000163500000c36000070360000d83f0000da3f0000dc3f0000de3f0000e03f0000e23f0000e43f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -421,7 +421,7 @@ MonoBehaviour:
     width: 387
     height: 966
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 19.955078}
+  m_ScrollPosition: {x: 0, y: 263.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
@@ -457,23 +457,23 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 42390000
-    m_LastClickedID: 14658
-    m_ExpandedIDs: 026df9ff066df9ff086df9ff0a6df9ff0c6df9ff0e6df9ff126df9ff166df9ff1a6df9ff1c6df9ff1e6df9ff206df9ff8a23faff8c23faff5c25faff5e25faff2c27faff2e27faff5ad9fbff60d9fbff5a1bfeff601bfeff2a1dfeff301dfeff4e1ffeff541ffeffa022feffa622feff9efbffff000000005e3800007838000080380000be380000ce380000e638000018390000263900002c3900006e3900008e3900009e390000fc390000503a0000823a0000ac3a0000be3a0000ea3a0000
+    m_SelectedIDs: 623b0000
+    m_LastClickedID: 15202
+    m_ExpandedIDs: 5afaffff78faffff24fbffff26fbffff9efbffff0000000046380000a83800000a390000b0390000523a0000c63a00001a3b0000823b00007c3d0000ba3d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Canvas main
-      m_OriginalName: Canvas main
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 14658
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
@@ -510,14 +510,14 @@ MonoBehaviour:
     height: 619
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 4294.091365925926
+  lastFramingTime: 5114.070537481482
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 261.16956, y: 2.1028843, z: 242.46786}
+    m_Target: {x: 260.8327, y: 2.355922, z: 240.83997}
     speed: 2
-    m_Value: {x: 261.16956, y: 2.1028843, z: 242.46786}
+    m_Value: {x: 260.8327, y: 2.355922, z: 240.83997}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -541,13 +541,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.06254251, y: -0.05803144, z: -0.0036426103, w: -0.99634707}
+    m_Target: {x: 0.028808014, y: 0.0062675313, z: -0.00017926395, w: 0.99956536}
     speed: 2
-    m_Value: {x: 0.06254251, y: -0.05803144, z: -0.0036426103, w: -0.99634707}
+    m_Value: {x: 0.028808014, y: 0.0062675313, z: -0.00017926395, w: 0.99956536}
   m_Size:
-    m_Target: 2.548198
+    m_Target: 0.85391843
     speed: 2
-    m_Value: 2.548198
+    m_Value: 0.85391843
   m_Ortho:
     m_Target: 0
     speed: 2

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class togglebutton : MonoBehaviour {
+public class Togglebutton : MonoBehaviour {
 
     private void OnTriggerEnter(Collider col)
     {
