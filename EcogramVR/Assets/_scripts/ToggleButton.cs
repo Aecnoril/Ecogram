@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class ToggleButton : MonoBehaviour
 {
+    
     private Toggle AssignedButton;
 
     private void Awake()
@@ -14,9 +15,8 @@ public class ToggleButton : MonoBehaviour
 
     private void OnTriggerEnter(Collider col)
     {
-        //Debug.Log(gameObject.name + " was triggered by " + col.gameObject.name);
-        
-        AssignedButton.onValueChanged.Invoke(true);
+        Debug.Log(gameObject.name + " was triggered by " + col.gameObject.name);
+        Debug.Log(AssignedButton + "dit is de toggle button"); // check of assignedbutton wel vindbaar is. 
+        AssignedButton.isOn = !AssignedButton.isOn;   //assisnged button wordt wat assigned button niet is. dus uit is aan en aan is uit. 
     }
 }
-
