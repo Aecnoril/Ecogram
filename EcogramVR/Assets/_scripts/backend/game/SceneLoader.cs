@@ -15,13 +15,13 @@ public class SceneLoader : MonoBehaviour
 
     private AsyncOperation async;
 
-    private void Start()
+    public void LoadLevel(string sceneName)
     {
-        StartCoroutine(LoadLevel("LevelName"));
+        StartCoroutine(LoadLevelCR(sceneName));
         loadingText.text = "Loading...";
     }
 
-    private IEnumerator LoadLevel(string Level)
+    private IEnumerator LoadLevelCR(string Level)
     {
         async = SceneManager.LoadSceneAsync(sceneName);
         yield return async;
@@ -29,7 +29,7 @@ public class SceneLoader : MonoBehaviour
 
     private void RandomText()
     {
-
+        throw new System.NotImplementedException();
     }
 
     private void OnGUI()

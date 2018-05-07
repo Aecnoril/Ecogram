@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assets.scripts.backend.game;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,9 @@ using UnityEngine;
 
 namespace Assets.scripts.backend.character
 {
-    class CharacterManager : MonoBehaviour
+    public class CharacterManager : ScriptableObject
     {
-        public static CharacterManager instance = null; //Static obect reference
+
         [Tooltip("Prefab for spawning new characters")]
         [SerializeField]
         private GameObject characterPrefab;
@@ -21,19 +22,10 @@ namespace Assets.scripts.backend.character
 
         //private List<Character> characters;
 
-        public void Awake()
+        private void OnEnable()
         {
-            //Make sure there is one and only one charactermanager in the app
-            if (instance == null)
-                instance = this;
-            else if (instance != this)
-                Destroy(gameObject);
-
             CharacterPool = new List<GameObject>();
-        }
-
-        public void Start()
-        {
+            characterPrefab = GameManager.instance.charPrefab;
             IncreasePool(characterPoolSize);
         }
 
