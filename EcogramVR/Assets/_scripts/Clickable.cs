@@ -13,14 +13,21 @@ public class Clickable : MonoBehaviour
     [Tooltip("Sould the item glow when hovered over?")]
     [SerializeField]
     private bool hoverGlow = true;
+    [Tooltip("The trigger area, if multiple colliders present")]
+    [SerializeField]
+    private Collider col;
+    [Tooltip("Name of the hand gameobject that should trigger the area")]
+    [SerializeField]
+    private string dominantHand = "Hand1";
     private bool hovered = false;
     private Transform controllerTipMainHand;
-    private Collider col;
+
 
     private void Awake()
     {
-        controllerTipMainHand = GameObject.Find("Player/SteamVRObjects" + "Hand1" + "/Attach_ControllerTip").transform;
-        col = GetComponent<Collider>();
+        controllerTipMainHand = GameObject.Find("Player/SteamVRObjects" + dominantHand + "/Attach_ControllerTip").transform;
+        if (col = null)
+            col = GetComponent<Collider>();
     }
 
     private void OnMouseDown()
