@@ -123,6 +123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 94952643}
   - component: {fileID: 94952642}
+  - component: {fileID: 94952644}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -156,6 +157,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &94952644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 94952641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aecc1e9dd45aba94fb9a27c590798794, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &235496353
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,7 +329,6 @@ GameObject:
   - component: {fileID: 534289063}
   - component: {fileID: 534289062}
   - component: {fileID: 534289061}
-  - component: {fileID: 534289059}
   m_Layer: 0
   m_Name: PolaroidAutumn
   m_TagString: Untagged
@@ -325,25 +336,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &534289059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 534289058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9f8b2d745b53a747b944a44fb77a9c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  hoverGlow: 1
-  col: {fileID: 0}
-  dominantHand: Hand1
 --- !u!4 &534289060
 Transform:
   m_ObjectHideFlags: 0
@@ -492,7 +484,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2087110111}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 50}
 --- !u!1 &717053698
 GameObject:
@@ -575,15 +567,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 255.74
+      value: 258.754
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.798
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 237.87
+      value: 239.602
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
       propertyPath: m_LocalRotation.x
@@ -672,7 +664,6 @@ GameObject:
   - component: {fileID: 951855352}
   - component: {fileID: 951855351}
   - component: {fileID: 951855350}
-  - component: {fileID: 951855348}
   m_Layer: 0
   m_Name: PolaroidSummer
   m_TagString: Untagged
@@ -680,25 +671,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &951855348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 951855347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9f8b2d745b53a747b944a44fb77a9c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  hoverGlow: 1
-  col: {fileID: 0}
-  dominantHand: Hand1
 --- !u!4 &951855349
 Transform:
   m_ObjectHideFlags: 0
@@ -1413,7 +1385,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 259.12
+      value: 259.034
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1421,7 +1393,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 241.764
+      value: 242.492
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1454,6 +1426,78 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 73ac470d3d909d645a6c89a4664b6849, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1472507550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1472507551}
+  - component: {fileID: 1472507554}
+  - component: {fileID: 1472507553}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1472507551
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1472507550}
+  m_LocalRotation: {x: -0.13318616, y: -0.13318619, z: 0.6944505, w: 0.69445044}
+  m_LocalPosition: {x: 0.25061977, y: 0.10712206, z: -0.3220145}
+  m_LocalScale: {x: 0.062499996, y: 0.0625, z: 0.062499996}
+  m_Children: []
+  m_Father: {fileID: 1644524804}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -21.713001, z: 90.00001}
+--- !u!23 &1472507553
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1472507550}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 111041dde0ea1484b8c6f892ecb48876, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1472507554
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1472507550}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1616946235
 GameObject:
   m_ObjectHideFlags: 0
@@ -1465,7 +1509,6 @@ GameObject:
   - component: {fileID: 1616946240}
   - component: {fileID: 1616946239}
   - component: {fileID: 1616946238}
-  - component: {fileID: 1616946236}
   m_Layer: 0
   m_Name: PolaroidField
   m_TagString: Untagged
@@ -1473,25 +1516,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1616946236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1616946235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9f8b2d745b53a747b944a44fb77a9c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  hoverGlow: 1
-  col: {fileID: 0}
-  dominantHand: Hand1
 --- !u!4 &1616946237
 Transform:
   m_ObjectHideFlags: 0
@@ -1586,13 +1610,16 @@ Transform:
   m_PrefabParentObject: {fileID: 400020, guid: e355c774b7672da4fb60a0e33a7123e2, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1644524803}
-  m_LocalRotation: {x: 0.6830127, y: 0.6830127, z: -0.18301274, w: 0.18301274}
-  m_LocalPosition: {x: 0.0065, y: -0.0007, z: 0.0006}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.006, y: -0.041, z: -0.045}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
-  m_Children: []
+  m_Children:
+  - {fileID: 1998346818}
+  - {fileID: 1903773986}
+  - {fileID: 1472507551}
   m_Father: {fileID: 2087110111}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 30, y: 180, z: 90}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!23 &1644524805
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1672,12 +1699,13 @@ Transform:
   m_PrefabParentObject: {fileID: 400018, guid: e355c774b7672da4fb60a0e33a7123e2, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1903773985}
-  m_LocalRotation: {x: 0.6830127, y: 0.6830127, z: -0.18301274, w: 0.18301274}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_LocalRotation: {x: 0.000000014901159, y: 0.000000014901159, z: 0.000000029802319,
+    w: 1}
+  m_LocalPosition: {x: 0.0011423103, y: -0.008122617, z: 0.00021216809}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2087110111}
-  m_RootOrder: 2
+  m_Father: {fileID: 1644524804}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 30, y: 180, z: 90}
 --- !u!23 &1903773987
 MeshRenderer:
@@ -1747,11 +1775,12 @@ Transform:
   m_PrefabParentObject: {fileID: 400022, guid: e355c774b7672da4fb60a0e33a7123e2, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1998346817}
-  m_LocalRotation: {x: 0.6830127, y: 0.6830127, z: -0.18301274, w: 0.18301274}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_LocalRotation: {x: 0.000000014901159, y: 0.000000014901159, z: 0.000000029802319,
+    w: 1}
+  m_LocalPosition: {x: 0.0011423103, y: -0.008122617, z: 0.00021216809}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2087110111}
+  m_Father: {fileID: 1644524804}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 30, y: 180, z: 90}
 --- !u!23 &1998346819
@@ -1885,17 +1914,15 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2087110110}
-  m_LocalRotation: {x: -0.3535534, y: -0.61237246, z: -0.3535534, w: 0.61237246}
-  m_LocalPosition: {x: -0.4444, y: 0.9601, z: -0.5568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.395, y: 1.016, z: -0.652}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1998346818}
   - {fileID: 1644524804}
-  - {fileID: 1903773986}
   - {fileID: 689140809}
   m_Father: {fileID: 670404749}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: -60, y: -90.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &2087110112
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1955,15 +1982,37 @@ MonoBehaviour:
   attachEaseInAttachmentNames: []
   onPickUp:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 94952644}
+        m_MethodName: EnablePanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1472507550}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 94952644}
+        m_MethodName: DisablePanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1472507550}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  snapAttachEaseInCompleted: 0
+  snapAttachEaseInCompleted: 1
 --- !u!114 &2087110115
 MonoBehaviour:
   m_ObjectHideFlags: 0
