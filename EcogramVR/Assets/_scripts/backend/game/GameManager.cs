@@ -11,7 +11,10 @@ namespace Assets.scripts.backend.game
 
         public GameObject charPrefab;
 
+        [HideInInspector]
         public CharacterManager charManager;
+
+        public ObjectiveManager objectiveManager;
 
         private void Awake()
         {
