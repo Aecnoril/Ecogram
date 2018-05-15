@@ -6,7 +6,7 @@ public class TriggerEvent : MonoBehaviour{
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag ("Hand1"))
+        if (other.CompareTag ("GameController"))
         {
             Debug.Log("WELKOM BOI");
         }
