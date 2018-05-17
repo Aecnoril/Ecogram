@@ -13,8 +13,10 @@ namespace Assets.scripts.backend.game
 
         [HideInInspector]
         public CharacterManager charManager;
-
+        [HideInInspector]
         public ObjectiveManager objectiveManager;
+        public Material fadeMat;
+
 
         private void Awake()
         {
@@ -27,11 +29,17 @@ namespace Assets.scripts.backend.game
             DontDestroyOnLoad(this);
 
             charManager = ScriptableObject.CreateInstance(typeof(CharacterManager)) as CharacterManager;
+            objectiveManager = GetComponent<ObjectiveManager>();
         }
 
         public void SpawnCharacter()
         {
             charManager.CreateCharacter(new Vector3(260, 0.2f, 246), Quaternion.Euler(Vector3.zero));
+        }
+
+        public void StartTutorial()
+        {
+            FadeTable();
         }
 
         // Use this for initialization
@@ -43,6 +51,47 @@ namespace Assets.scripts.backend.game
         // Update is called once per frame
         void Update()
         {
+
+        }
+
+        void FadeTable()
+        {
+            foreach (Renderer r in GameObject.Find("Table").GetComponentsInChildren<Renderer>())
+            {
+                Texture tempTex = r.material.mainTexture;
+                r.material = fadeMat;
+                if (r.materials.Length != 1)
+                    StartCoroutine(FadeTo(r.materials[1], 0.0f, 3f, true));
+                r.material.mainTexture = tempTex;
+                StartCoroutine(FadeTo(r.material, 0.0f, 3f, true));
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="material"></param>
+        /// <param name="targetOpacity"></param>
+        /// <param name="duration"></param>
+        /// <returns></returns>
+        IEnumerator FadeTo(Material material, float targetOpacity, float duration, bool reverse)
+        {
+            Color color = material.color;
+            float startOpacity = color.a;
+
+            float t = 0;
+
+            while (t < duration)
+            {
+                t += Time.deltaTime;
+                float blend = Mathf.Clamp01(t / duration);
+                color.a = (reverse) ? Mathf.Lerp(startOpacity, targetOpacity, 1 - blend) : Mathf.Lerp(startOpacity, targetOpacity, blend);
+
+                material.color = color;
+
+                yield return null;
+            }
+
 
         }
     }

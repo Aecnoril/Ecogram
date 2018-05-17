@@ -34,7 +34,6 @@ namespace Assets.scripts.backend.game
                     Debug.Log("Objective " + obj.name + " complete!");
                     objectives.Remove(obj);
                 }
-
             }
         }
     }

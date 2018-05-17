@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using Valve.VR.InteractionSystem;
+using UnityEngine.Events;
 
 public class Objective : MonoBehaviour
 {
@@ -20,8 +21,8 @@ public class Objective : MonoBehaviour
     private Collider triggerArea;
     [SerializeField]
     private GameObject triggerObject;
-    [SerializeField]
     private Player player;
+    public UnityEvent onComplete;
 
     public string name;
     public bool complete;
@@ -35,6 +36,8 @@ public class Objective : MonoBehaviour
                 return CheckArea();
             case ObjectiveType.Object:
                 return CheckObject();
+            case ObjectiveType.Deliver:
+                return CheckEvent();
             case ObjectiveType.Event:
                 return CheckEvent();
             default:
@@ -50,7 +53,11 @@ public class Objective : MonoBehaviour
     private bool CheckArea()
     {
         if (triggerArea.bounds.Contains(player.headCollider.transform.position))
+        {
             complete = true;
+            onComplete.Invoke();
+        }
+
         return complete;
     }
 

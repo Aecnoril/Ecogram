@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 222226740750459986}
   - component: {fileID: 114201107267032308}
   - component: {fileID: 114826667512183892}
+  - component: {fileID: 135099392266728750}
   m_Layer: 0
   m_Name: Button ecogram start
   m_TagString: Untagged
@@ -121,6 +122,7 @@ GameObject:
   - component: {fileID: 222568959547597266}
   - component: {fileID: 114788277084536222}
   - component: {fileID: 114564392140267852}
+  - component: {fileID: 135795934122556640}
   m_Layer: 0
   m_Name: Button tutorial start
   m_TagString: Untagged
@@ -571,7 +573,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: b54358cb409ff7c40a6efa466aae8fb5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 19d57c79cc8def64e8ad5a1273901dde, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -711,6 +713,30 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!135 &135099392266728750
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1121882441320490}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &135795934122556640
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1601409171155176}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!222 &222021223395926322
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -894,18 +920,18 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1849697799205092}
-  m_LocalRotation: {x: -0, y: 0.0000000027939677, z: -0, w: 1.0000002}
-  m_LocalPosition: {x: 0, y: 0, z: 246.94}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 241.531}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 224831046733288710}
   - {fileID: 224158038590615020}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 258.4654, y: 2.4574}
+  m_AnchoredPosition: {x: 261.218, y: 1.663}
   m_SizeDelta: {x: 37.4923, y: 41.984}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224294082037479714

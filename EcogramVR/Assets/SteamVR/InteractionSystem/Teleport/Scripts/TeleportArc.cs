@@ -26,7 +26,7 @@ namespace Valve.VR.InteractionSystem
 		public Material material;
 
 		[HideInInspector]
-		public int traceLayerMask = 0;
+		public int traceLayerMask = 1;
 
 		//Private data
 		private LineRenderer[] lineRenderers;
