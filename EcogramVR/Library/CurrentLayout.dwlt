@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 509, y: 392}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 102
+  controlID: 9
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 292}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 24
+  controlID: 10
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -286,14 +286,14 @@ MonoBehaviour:
     height: 655
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 16676.1132774159
+  lastFramingTime: 7848.143735550343
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 255.75609, y: 2.9162154, z: 238.14677}
+    m_Target: {x: 252.52838, y: -4.9557447, z: 258.02182}
     speed: 2
-    m_Value: {x: 255.75609, y: 2.9162154, z: 238.14677}
+    m_Value: {x: 252.52838, y: -4.9557447, z: 258.02182}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -321,13 +321,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.1976862, y: 0.11528508, z: -0.02341689, w: -0.973181}
+    m_Target: {x: -0.1766886, y: 0.18569386, z: -0.033963017, w: -0.9659946}
     speed: 2
-    m_Value: {x: -0.1976862, y: 0.11528508, z: -0.02341689, w: -0.973181}
+    m_Value: {x: -0.1766886, y: 0.18569386, z: -0.033963017, w: -0.9659946}
   m_Size:
-    m_Target: 4.450123
+    m_Target: 22
     speed: 2
-    m_Value: 4.450123
+    m_Value: 22
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -366,7 +366,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
-  m_Stats: 0
+  m_Stats: 1
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
@@ -451,20 +451,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/prefabs
+    - Assets/SteamVR/InteractionSystem/Core/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/prefabs
+  - Assets/SteamVR/InteractionSystem/Core/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Programming\Unity Projects\Ecogram\EcogramVR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 219}
-    m_SelectedIDs: 18180000
-    m_LastClickedID: 6168
-    m_ExpandedIDs: 00000000fa0b00004c0e00001e0f0000f0100000b211000024120000521300006a1400009c14000034170000cc170000f2170000cc180000041900001e190000d0190000541a0000a21a0000ca1a0000f44a0000f64a0000f84a0000fa4a0000fc4a0000fe4a0000004b0000024b000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 179}
+    m_SelectedIDs: f0130000
+    m_LastClickedID: 5104
+    m_ExpandedIDs: 00000000fa0b0000220f000002110000c81100003a1200006c130000ba1400005c170000f41700001a180000f41800002c19000046190000821a0000d81a0000001b0000181b00004a4c00004c4c00004e4c0000504c0000524c0000544c0000564c0000584c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -492,7 +492,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fa0b00004c0e00001e0f0000f0100000b211000024120000521300006a1400009c14000034170000cc170000f2170000cc180000041900001e190000d0190000541a0000a21a0000ca1a0000f44a0000f64a0000f84a0000fa4a0000fc4a0000fe4a0000004b0000024b0000
+    m_ExpandedIDs: 00000000fa0b0000500e0000220f000002110000c81100003a1200006c13000088140000ba1400005c170000b6170000f41700001a180000f41800002c19000046190000fe190000821a0000d81a0000001b00004a4c00004c4c00004e4c0000504c0000524c0000544c0000564c0000584c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -544,7 +544,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 180}
     m_GridSize: 16
   m_DirectoriesAreaWidth: 202
 --- !u!114 &15
@@ -632,10 +632,10 @@ MonoBehaviour:
     height: 267
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 368}
-    m_SelectedIDs: 201e0000
-    m_LastClickedID: 7712
-    m_ExpandedIDs: c02ff9ff8ceffbff8eeffbff98effbff8efaffffacfaffffb0fafffff0fbffff00000000041e00005a1e0000ec1f00002a2000008e200000da200000ee2000006a21000086210000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: fc1e0000
+    m_LastClickedID: 7932
+    m_ExpandedIDs: f0fbffff00000000fc1e00006c210000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

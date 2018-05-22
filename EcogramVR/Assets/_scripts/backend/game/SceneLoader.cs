@@ -4,26 +4,31 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/// <summary>
+/// Scene Loader/switcher
+/// Koen van Vliet - Aecnorilkoen@gmail.com
+/// </summary>
 public class SceneLoader : MonoBehaviour
 {
-    public Text loadingTip;
-    public Text loadingText;
-    public Texture2D progressBar;
-
-    [SerializeField]
-    private string sceneName = "Scenename";
+    //public Text loadingTip;
+    //public Text loadingText;
+    //public Texture2D progressBar;
 
     private AsyncOperation async;
 
+    /// <summary>
+    /// Starts coroutine loading a scene
+    /// </summary>
+    /// <param name="sceneName">Exact name of the scene that has to be loaded</param>
     public void LoadLevel(string sceneName)
     {
         StartCoroutine(LoadLevelCR(sceneName));
-        loadingText.text = "Loading...";
+        //loadingText.text = "Loading...";
     }
 
-    private IEnumerator LoadLevelCR(string Level)
+    private IEnumerator LoadLevelCR(string scene)
     {
-        async = SceneManager.LoadSceneAsync(sceneName);
+        async = SceneManager.LoadSceneAsync(scene);
         yield return async;
     }
 
@@ -36,7 +41,7 @@ public class SceneLoader : MonoBehaviour
     {
         if (async != null)
         {
-            GUI.DrawTexture(new Rect(0, 0, 100 * async.progress, 50), progressBar);
+            //GUI.DrawTexture(new Rect(0, 0, 100 * async.progress, 50), progressBar);
         }
     }
 
