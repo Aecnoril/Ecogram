@@ -16,7 +16,6 @@ public class ToggleButton : MonoBehaviour
     {
         Debug.Log(AssignedButton + "dit is de toggle button"); // check of assignedbutton wel vindbaar is. 
 
-        AssignedButton.isOn = !AssignedButton.isOn;   //assisnged button wordt wat assigned button niet is. als hij niet aan is wordt hij aan)
+        AssignedButton.isOn = !AssignedButton.isOn;   //assinged button wordt wat assigned button niet is. als hij niet aan is wordt hij aan)
     }
 }
-
