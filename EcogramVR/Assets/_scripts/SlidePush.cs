@@ -34,7 +34,6 @@ public class SlidePush : MonoBehaviour
     private float returnDamp = 4.0f;
 
     public bool pushed = false;
-    public bool released = true;
 
     // Use this for initialization
     void Start()
@@ -80,13 +79,10 @@ public class SlidePush : MonoBehaviour
                 lockedPos.z = localAnchor.z - maxDist;
         }
 
-        lockedPos.x = localAnchor.x;
-
         transform.localPosition = lockedPos;
         transform.localRotation = localRotation;
 
-        if (!isTouched)
-            transform.localPosition = Vector3.Lerp(transform.localPosition, localAnchor, returnDamp * Time.deltaTime);
+        transform.localPosition = Vector3.Lerp(transform.localPosition, localAnchor, returnDamp * Time.deltaTime);
 
         Vector3 pushDistance = transform.localPosition - localAnchor;
         float distance = 0.0f;
@@ -94,14 +90,17 @@ public class SlidePush : MonoBehaviour
         if (!yLock) distance = Math.Abs(pushDistance.y);
         if (!zLock) distance = Math.Abs(pushDistance.z);
         float press = Mathf.Clamp(1 / activationDist * distance, 0f, 1f);
+        Debug.Log(press);
 
         if (!pushed && press > 0.9f)
         {
             onPush.Invoke();
+            GetComponent<Rigidbody>().isKinematic = true;
             pushed = true;
         }
-        else if (pushed && press < 0.3f)
+        else if (pushed && press < 0.01f)
         {
+            GetComponent<Rigidbody>().isKinematic = false;
             pushed = false;
         }
 
@@ -110,13 +109,11 @@ public class SlidePush : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "Hand1" || collision.gameObject.name == "Hand2")
-            isTouched = true;
+        isTouched = true;
     }
 
     private void OnCollisionExit(Collision collision)
     {
-        if (collision.gameObject.name == "Hand1" || collision.gameObject.name == "Hand2")
-            isTouched = false;
+        isTouched = false;
     }
 }
