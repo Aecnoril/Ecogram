@@ -9,6 +9,7 @@ public class SlidePush : MonoBehaviour
     public UnityEvent onPush;
 
     private Vector3 localAnchor;
+    private Vector3 pushedAnchor;
     private Quaternion localRotation;
     [SerializeField]
     private bool xLock;

@@ -91,8 +91,6 @@ namespace Assets.scripts.backend.game
 
                 yield return null;
             }
-
-
         }
     }
 }

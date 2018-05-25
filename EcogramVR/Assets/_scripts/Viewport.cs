@@ -23,11 +23,13 @@ public class Viewport : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Physics.Raycast(cameraTransform.position, cameraTransform.forward, 50))
+        RaycastHit hit;
+        Physics.Raycast(cameraTransform.position, cameraTransform.forward, out hit, 50);
+        if (hit.collider == viewportHitbox)
             isHit = true;
         else
             isHit = false;
 
-            enabledObjects.SetActive(isHit);
+        enabledObjects.SetActive(isHit);
 	}
 }
