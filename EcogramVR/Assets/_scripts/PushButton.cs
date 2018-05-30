@@ -15,12 +15,12 @@ public class PushButton : MonoBehaviour
     [SerializeField]
     private Color pushColor;
     [SerializeField]
-    private float pushDistance = 0.01f;
+    private float pushDistance = 0.2f;
 
     [SerializeField]
     private bool isTouched;
     [SerializeField]
-    private float returnDamp = 0.1f;
+    private float returnDamp = 1.0f;
 
     public bool pushed = false;
 
@@ -28,7 +28,8 @@ public class PushButton : MonoBehaviour
     void Start()
     {
         localAnchor = transform.localPosition;
-        pushedAnchor = transform.localPosition - (Vector3.down * pushDistance);
+        pushedAnchor = transform.localPosition;
+        pushedAnchor += Vector3.down * pushDistance;
 
         startColor = GetComponent<Renderer>().material.color;
     }
@@ -44,18 +45,18 @@ public class PushButton : MonoBehaviour
         GetComponent<Renderer>().material.color = Color.Lerp(startColor, pushColor, press);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
         if (!pushed)
         {
+            pushed = true;
             StartCoroutine(MoveButton(false));
         }
 
         isTouched = true;
-
     }
 
-    private void OnCollisionExit(Collision collision)
+    private void OnTriggerExit(Collider other)
     {
         isTouched = false;
     }
@@ -64,24 +65,26 @@ public class PushButton : MonoBehaviour
     {
         if (up)
         {
-            while (transform.localPosition.y > pushedAnchor.y + 0.01f)
+            while (transform.localPosition.y < localAnchor.y - 0.002f)
             {
+                if (!isTouched) transform.localPosition = Vector3.Lerp(transform.localPosition, localAnchor, returnDamp * Time.deltaTime);
+                yield return null;
+            }
+            pushed = false;
+        }
+        else
+        {
+            while (transform.localPosition.y > pushedAnchor.y + 0.002f)
+            {
+                //Debug.Log("Y: " + transform.localPosition.y + " | to: " + (pushedAnchor.y + 0.001f) + " | Pushed: " + pushed);
                 transform.localPosition = Vector3.Lerp(transform.localPosition, pushedAnchor, returnDamp * Time.deltaTime);
                 yield return null;
             }
 
             onPush.Invoke();
-            pushed = true;
             StartCoroutine(MoveButton(true));
-        }
-        else
-        {
-            while (!isTouched && transform.localPosition.y < localAnchor.y - 0.01f )
-            {
-                transform.localPosition = Vector3.Lerp(transform.localPosition, localAnchor, returnDamp * Time.deltaTime);
-                yield return null;
-            }
-            pushed = false;
+            Debug.Log("Pushed");
+            pushed = true;
         }
     }
 }
