@@ -16,6 +16,8 @@ namespace Assets.scripts.backend.game
         [HideInInspector]
         public ObjectiveManager objectiveManager;
         public Material fadeMat;
+        [HideInInspector]
+        public GameObject Player;
 
 
         private void Awake()
@@ -30,11 +32,13 @@ namespace Assets.scripts.backend.game
 
             charManager = ScriptableObject.CreateInstance(typeof(CharacterManager)) as CharacterManager;
             objectiveManager = GetComponent<ObjectiveManager>();
+            Player = GameObject.FindGameObjectWithTag("Player");
         }
 
         public void SpawnCharacter()
         {
-            charManager.CreateCharacter(new Vector3(260, 0.2f, 246));
+            Vector3 spawnPos = Camera.main.transform.position + (Camera.main.transform.forward * 3);
+            charManager.CreateCharacter(spawnPos);
         }
 
         public void StartTutorial()
@@ -51,7 +55,7 @@ namespace Assets.scripts.backend.game
         // Update is called once per frame
         void Update()
         {
-
+            if (Input.GetKeyDown(KeyCode.K)) SpawnCharacter();
         }
 
         void FadeTable()
