@@ -30,16 +30,15 @@ namespace Assets.scripts.backend.character
         }
 
         #region Character modifications
-        public void CreateCharacter(Vector3 position, Quaternion rotation)
+        public void CreateCharacter(Vector3 position)
         {
             //If there is a character in the pool, take it out and activate it. Otherwise increase the poolsize
             if(CharacterPool.Count > 0)
             {
                 GameObject charObj = CharacterPool[CharacterPool.Count - 1];
+                CharacterPool.Remove(charObj);
                 charObj.SetActive(true);
                 charObj.transform.position = position;
-                charObj.transform.rotation = rotation;
-                CharacterPool.Remove(charObj);
             }
             else
             {
@@ -78,13 +77,23 @@ namespace Assets.scripts.backend.character
         {
             for (int i = 0; i < amt; i++)
             {
-                GameObject charObj = Instantiate(characterPrefab, Vector3.zero, Quaternion.Euler(Vector3.zero));
+                GameObject charObj = Instantiate(characterPrefab, Vector3.zero, Quaternion.Euler(-90, 0, 0));
+
+                Character character = new Character();
+                character.charObj = charObj;
+                character.CharacterName = "Naam " + CharacterPool.Count;
+                character.Emotion = "Blij";
+                character.Relation = "";
+                character.SupportTypes = new List<string>();
+                character.Themes = new List<string>();
+
+                charObj.AddComponent<Character>();
+
                 charObj.SetActive(false);
                 CharacterPool.Add(charObj);
             }
             Debug.Log("Poolsize: " + CharacterPool.Count);
         }
 
-        
     }
 }

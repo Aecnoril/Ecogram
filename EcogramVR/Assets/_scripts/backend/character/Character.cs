@@ -6,17 +6,20 @@ namespace Assets.scripts.backend.character
 {
     public class Character : MonoBehaviour
     {
+        
         private string characterName;
         private string emotion;
         private string relation;
         private List<string> supportTypes;
         private List<string> themes;
 
+        public GameObject charObj;
+
         #region Properties
         public string CharacterName
         {
             get { return characterName; }
-            set { characterName = value; }
+            set { characterName = value; charObj.name = value; }
         }
 
         public string Emotion
@@ -43,14 +46,6 @@ namespace Assets.scripts.backend.character
             set { themes = value; }
         }
         #endregion
-
-        /// <summary>
-        /// Opens character menu facing the player
-        /// </summary>
-        public void OpenMenu()
-        {
-
-        }
 
     }
 }

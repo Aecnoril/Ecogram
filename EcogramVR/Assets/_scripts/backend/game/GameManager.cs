@@ -34,7 +34,7 @@ namespace Assets.scripts.backend.game
 
         public void SpawnCharacter()
         {
-            charManager.CreateCharacter(new Vector3(260, 0.2f, 246), Quaternion.Euler(Vector3.zero));
+            charManager.CreateCharacter(new Vector3(260, 0.2f, 246));
         }
 
         public void StartTutorial()

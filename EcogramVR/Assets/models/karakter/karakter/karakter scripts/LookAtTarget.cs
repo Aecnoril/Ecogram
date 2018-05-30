@@ -6,11 +6,20 @@ public class LookAtTarget : MonoBehaviour
 {
 	public Transform target;
 
-	void Update()
+    private void Start()
+    {
+        target = GameObject.FindGameObjectWithTag("Player").transform;
+    }
+
+    void Update()
 	{
 		if(target != null)
 		{
 			transform.LookAt(target);
+            transform.Rotate(-90, 0, 0);
+
+
+
 		}
 	}
 }
