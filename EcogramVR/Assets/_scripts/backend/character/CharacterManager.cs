@@ -39,6 +39,7 @@ namespace Assets.scripts.backend.character
                 CharacterPool.Remove(charObj);
                 charObj.SetActive(true);
                 charObj.transform.position = position;
+                charObj.GetComponent<Character>().InitiateChar();
             }
             else
             {

@@ -8,18 +8,19 @@ public class LookAtTarget : MonoBehaviour
 
     private void Start()
     {
-        target = GameObject.FindGameObjectWithTag("Player").transform;
+        target = Camera.main.transform;
     }
 
     void Update()
 	{
 		if(target != null)
 		{
-			transform.LookAt(target);
-            transform.Rotate(-90, 0, 0);
 
+            Vector3 lookPos = target.position;
+            lookPos.y = transform.position.y;
+            transform.LookAt(lookPos);
+            transform.Rotate(new Vector3(0, 0, 0));
+        }
 
-
-		}
 	}
 }

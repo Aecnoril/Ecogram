@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: 331f569aa24e2dc438703ef115adfbe5
+timeCreated: 1527426940
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: beard001
+    100002: Group1
+    100004: Group10890
+    100006: Group11954
+    100008: Group15783
+    100010: Group17382
+    100012: Group2
+    100014: Group20232
+    100016: Group24773
+    100018: Group54533
+    100020: Group56545
+    100022: Group63758
+    100024: Group9
+    100026: //RootNode
+    100028: man body
+    100030: man ears 001
+    100032: man eyes
+    100034: man hair 001
+    100036: man hair 001.1
+    100038: man hair 002
+    100040: man hair 002.1
+    100042: man hair 003
+    100044: man hair 003.1
+    100046: man hair 004
+    100048: man hair 004.1
+    100050: man hair 005
+    100052: man hair 005.1
+    100054: man hair 005.2
+    100056: man hair 005.3
+    100058: man head
+    100060: man head 001.1
+    100062: man hoodie 001
+    100064: man hoodie 001.1
+    100066: man hoodie 001.2
+    100068: man jacket 001
+    100070: man jacket 001.1
+    100072: man jacket 001.2
+    100074: man neck 001
+    100076: man shirt long sleeves 001
+    100078: man shirt long sleeves 001.1
+    100080: man shirt long sleeves 001.2
+    100082: man shirt short sleeves 001
+    100084: man shirt short sleeves 001.1
+    100086: man shoes
+    100088: man shoes.1
+    100090: man trouses 001
+    100092: man trouses 001.1
+    100094: mixamorig:Head
+    100096: mixamorig:HeadTop_End
+    100098: mixamorig:Hips
+    100100: mixamorig:LeftArm
+    100102: mixamorig:LeftFoot
+    100104: mixamorig:LeftForeArm
+    100106: mixamorig:LeftHand
+    100108: mixamorig:LeftHandIndex1
+    100110: mixamorig:LeftHandIndex2
+    100112: mixamorig:LeftHandIndex3
+    100114: mixamorig:LeftHandIndex4
+    100116: mixamorig:LeftLeg
+    100118: mixamorig:LeftShoulder
+    100120: mixamorig:LeftToe_End
+    100122: mixamorig:LeftToeBase
+    100124: mixamorig:LeftUpLeg
+    100126: mixamorig:Neck
+    100128: mixamorig:RightArm
+    100130: mixamorig:RightFoot
+    100132: mixamorig:RightForeArm
+    100134: mixamorig:RightHand
+    100136: mixamorig:RightHandIndex1
+    100138: mixamorig:RightHandIndex2
+    100140: mixamorig:RightHandIndex3
+    100142: mixamorig:RightHandIndex4
+    100144: mixamorig:RightLeg
+    100146: mixamorig:RightShoulder
+    100148: mixamorig:RightToe_End
+    100150: mixamorig:RightToeBase
+    100152: mixamorig:RightUpLeg
+    100154: mixamorig:Spine
+    100156: mixamorig:Spine1
+    100158: mixamorig:Spine2
+    100160: mustache 001
+    100162: mustache 002
+    400000: beard001
+    400002: Group1
+    400004: Group10890
+    400006: Group11954
+    400008: Group15783
+    400010: Group17382
+    400012: Group2
+    400014: Group20232
+    400016: Group24773
+    400018: Group54533
+    400020: Group56545
+    400022: Group63758
+    400024: Group9
+    400026: //RootNode
+    400028: man body
+    400030: man ears 001
+    400032: man eyes
+    400034: man hair 001
+    400036: man hair 001.1
+    400038: man hair 002
+    400040: man hair 002.1
+    400042: man hair 003
+    400044: man hair 003.1
+    400046: man hair 004
+    400048: man hair 004.1
+    400050: man hair 005
+    400052: man hair 005.1
+    400054: man hair 005.2
+    400056: man hair 005.3
+    400058: man head
+    400060: man head 001.1
+    400062: man hoodie 001
+    400064: man hoodie 001.1
+    400066: man hoodie 001.2
+    400068: man jacket 001
+    400070: man jacket 001.1
+    400072: man jacket 001.2
+    400074: man neck 001
+    400076: man shirt long sleeves 001
+    400078: man shirt long sleeves 001.1
+    400080: man shirt long sleeves 001.2
+    400082: man shirt short sleeves 001
+    400084: man shirt short sleeves 001.1
+    400086: man shoes
+    400088: man shoes.1
+    400090: man trouses 001
+    400092: man trouses 001.1
+    400094: mixamorig:Head
+    400096: mixamorig:HeadTop_End
+    400098: mixamorig:Hips
+    400100: mixamorig:LeftArm
+    400102: mixamorig:LeftFoot
+    400104: mixamorig:LeftForeArm
+    400106: mixamorig:LeftHand
+    400108: mixamorig:LeftHandIndex1
+    400110: mixamorig:LeftHandIndex2
+    400112: mixamorig:LeftHandIndex3
+    400114: mixamorig:LeftHandIndex4
+    400116: mixamorig:LeftLeg
+    400118: mixamorig:LeftShoulder
+    400120: mixamorig:LeftToe_End
+    400122: mixamorig:LeftToeBase
+    400124: mixamorig:LeftUpLeg
+    400126: mixamorig:Neck
+    400128: mixamorig:RightArm
+    400130: mixamorig:RightFoot
+    400132: mixamorig:RightForeArm
+    400134: mixamorig:RightHand
+    400136: mixamorig:RightHandIndex1
+    400138: mixamorig:RightHandIndex2
+    400140: mixamorig:RightHandIndex3
+    400142: mixamorig:RightHandIndex4
+    400144: mixamorig:RightLeg
+    400146: mixamorig:RightShoulder
+    400148: mixamorig:RightToe_End
+    400150: mixamorig:RightToeBase
+    400152: mixamorig:RightUpLeg
+    400154: mixamorig:Spine
+    400156: mixamorig:Spine1
+    400158: mixamorig:Spine2
+    400160: mustache 001
+    400162: mustache 002
+    4300000: beard001
+    4300002: man hoodie 001
+    4300004: man hoodie 001.1
+    4300006: man hoodie 001.2
+    4300008: Group1
+    4300010: Group2
+    4300012: Group9
+    4300014: man jacket 001
+    4300016: man jacket 001.1
+    4300018: man jacket 001.2
+    4300020: man body
+    4300022: Group10890
+    4300024: Group20232
+    4300026: Group24773
+    4300028: Group63758
+    4300030: Group56545
+    4300032: Group15783
+    4300034: Group17382
+    4300036: Group11954
+    4300038: Group54533
+    4300040: man hair 001
+    4300042: man hair 001.1
+    4300044: man hair 002
+    4300046: man hair 002.1
+    4300048: man hair 003
+    4300050: man hair 003.1
+    4300052: man hair 004
+    4300054: man hair 004.1
+    4300056: man hair 005
+    4300058: man hair 005.1
+    4300060: man hair 005.3
+    4300062: man hair 005.2
+    4300064: man head
+    4300066: man head 001.1
+    4300068: man neck 001
+    4300070: man ears 001
+    4300072: man eyes
+    4300074: mustache 001
+    4300076: mustache 002
+    4300078: man shirt long sleeves 001
+    4300080: man shirt long sleeves 001.1
+    4300082: man shirt long sleeves 001.2
+    4300084: man shirt short sleeves 001
+    4300086: man shirt short sleeves 001.1
+    4300088: man trouses 001
+    4300090: man trouses 001.1
+    4300092: man shoes
+    4300094: man shoes.1
+    7400000: mixamo.com
+    9500000: //RootNode
+    13700000: beard001
+    13700002: Group1
+    13700004: Group10890
+    13700006: Group11954
+    13700008: Group15783
+    13700010: Group17382
+    13700012: Group2
+    13700014: Group20232
+    13700016: Group24773
+    13700018: Group54533
+    13700020: Group56545
+    13700022: Group63758
+    13700024: Group9
+    13700026: man body
+    13700028: man ears 001
+    13700030: man eyes
+    13700032: man hair 001
+    13700034: man hair 001.1
+    13700036: man hair 002
+    13700038: man hair 002.1
+    13700040: man hair 003
+    13700042: man hair 003.1
+    13700044: man hair 004
+    13700046: man hair 004.1
+    13700048: man hair 005
+    13700050: man hair 005.1
+    13700052: man hair 005.2
+    13700054: man hair 005.3
+    13700056: man head
+    13700058: man head 001.1
+    13700060: man hoodie 001
+    13700062: man hoodie 001.1
+    13700064: man hoodie 001.2
+    13700066: man jacket 001
+    13700068: man jacket 001.1
+    13700070: man jacket 001.2
+    13700072: man neck 001
+    13700074: man shirt long sleeves 001
+    13700076: man shirt long sleeves 001.1
+    13700078: man shirt long sleeves 001.2
+    13700080: man shirt short sleeves 001
+    13700082: man shirt short sleeves 001.1
+    13700084: man shoes
+    13700086: man shoes.1
+    13700088: man trouses 001
+    13700090: man trouses 001.1
+    13700092: mustache 001
+    13700094: mustache 002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

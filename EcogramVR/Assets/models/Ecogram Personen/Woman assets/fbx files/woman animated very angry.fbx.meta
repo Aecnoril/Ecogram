@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 0d3115f188dce8041bc0ce736238bb18
+timeCreated: 1527426891
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: mixamorig:Head
+    100002: mixamorig:HeadTop_End
+    100004: mixamorig:Hips
+    100006: mixamorig:LeftArm
+    100008: mixamorig:LeftFoot
+    100010: mixamorig:LeftForeArm
+    100012: mixamorig:LeftHand
+    100014: mixamorig:LeftHandIndex1
+    100016: mixamorig:LeftHandIndex2
+    100018: mixamorig:LeftHandIndex3
+    100020: mixamorig:LeftHandIndex4
+    100022: mixamorig:LeftHandMiddle1
+    100024: mixamorig:LeftHandMiddle2
+    100026: mixamorig:LeftHandMiddle3
+    100028: mixamorig:LeftHandMiddle4
+    100030: mixamorig:LeftHandPinky1
+    100032: mixamorig:LeftHandPinky2
+    100034: mixamorig:LeftHandPinky3
+    100036: mixamorig:LeftHandPinky4
+    100038: mixamorig:LeftHandRing1
+    100040: mixamorig:LeftHandRing2
+    100042: mixamorig:LeftHandRing3
+    100044: mixamorig:LeftHandRing4
+    100046: mixamorig:LeftHandThumb1
+    100048: mixamorig:LeftHandThumb2
+    100050: mixamorig:LeftHandThumb3
+    100052: mixamorig:LeftHandThumb4
+    100054: mixamorig:LeftLeg
+    100056: mixamorig:LeftShoulder
+    100058: mixamorig:LeftToe_End
+    100060: mixamorig:LeftToeBase
+    100062: mixamorig:LeftUpLeg
+    100064: mixamorig:Neck
+    100066: mixamorig:RightArm
+    100068: mixamorig:RightFoot
+    100070: mixamorig:RightForeArm
+    100072: mixamorig:RightHand
+    100074: mixamorig:RightHandIndex1
+    100076: mixamorig:RightHandIndex2
+    100078: mixamorig:RightHandIndex3
+    100080: mixamorig:RightHandIndex4
+    100082: mixamorig:RightHandMiddle1
+    100084: mixamorig:RightHandMiddle2
+    100086: mixamorig:RightHandMiddle3
+    100088: mixamorig:RightHandMiddle4
+    100090: mixamorig:RightHandPinky1
+    100092: mixamorig:RightHandPinky2
+    100094: mixamorig:RightHandPinky3
+    100096: mixamorig:RightHandPinky4
+    100098: mixamorig:RightHandRing1
+    100100: mixamorig:RightHandRing2
+    100102: mixamorig:RightHandRing3
+    100104: mixamorig:RightHandRing4
+    100106: mixamorig:RightHandThumb1
+    100108: mixamorig:RightHandThumb2
+    100110: mixamorig:RightHandThumb3
+    100112: mixamorig:RightHandThumb4
+    100114: mixamorig:RightLeg
+    100116: mixamorig:RightShoulder
+    100118: mixamorig:RightToe_End
+    100120: mixamorig:RightToeBase
+    100122: mixamorig:RightUpLeg
+    100124: mixamorig:Spine
+    100126: mixamorig:Spine1
+    100128: mixamorig:Spine2
+    100130: //RootNode
+    100132: woman body 001
+    100134: woman body 001.1
+    100136: woman body 001.2
+    100138: woman body 001.3
+    100140: woman body 001.4
+    100142: woman body 001.5
+    100144: woman body 001.6
+    100146: woman eyes 001
+    100148: woman eyes 001.1
+    100150: woman glasses 001
+    100152: woman glasses 001.1
+    100154: woman glasses 001.2
+    100156: woman glasses 001.3
+    100158: woman hair 001
+    100160: woman hair 001.1
+    100162: woman hair 001.2
+    100164: woman hair 001.3
+    100166: woman hair 002
+    100168: woman hair 002.1
+    100170: woman hair 002.2
+    100172: woman hair 003
+    100174: woman hair 003.1
+    100176: woman hair 003.2
+    100178: woman hair 003.3
+    100180: woman hair 003.4
+    100182: woman hair 004
+    100184: woman hair 004.1
+    100186: woman hair 004.2
+    100188: woman hair 005
+    100190: woman hair 005.1
+    100192: woman hair 005.2
+    100194: woman hair 005.3
+    100196: woman hair 005.4
+    100198: woman head 001
+    100200: woman head 001.1
+    100202: woman head 001.2
+    100204: woman head 001.3
+    100206: woman shirt long sleeves 001
+    100208: woman shirt long sleeves 001.1
+    100210: woman shirt long sleeves 001.2
+    100212: woman shirt short sleeves 001
+    100214: woman shirt short sleeves 001.1
+    100216: woman shirt short sleeves 001.2
+    100218: woman shoes 001
+    100220: woman shoes 001.1
+    100222: woman top 001
+    100224: woman top 001.1
+    100226: woman top 001.2
+    100228: woman top 001.3
+    100230: woman trouses 001
+    100232: woman trouses 001.1
+    100234: woman vest 001
+    100236: woman vest 001.1
+    100238: woman vest 001.2
+    400000: mixamorig:Head
+    400002: mixamorig:HeadTop_End
+    400004: mixamorig:Hips
+    400006: mixamorig:LeftArm
+    400008: mixamorig:LeftFoot
+    400010: mixamorig:LeftForeArm
+    400012: mixamorig:LeftHand
+    400014: mixamorig:LeftHandIndex1
+    400016: mixamorig:LeftHandIndex2
+    400018: mixamorig:LeftHandIndex3
+    400020: mixamorig:LeftHandIndex4
+    400022: mixamorig:LeftHandMiddle1
+    400024: mixamorig:LeftHandMiddle2
+    400026: mixamorig:LeftHandMiddle3
+    400028: mixamorig:LeftHandMiddle4
+    400030: mixamorig:LeftHandPinky1
+    400032: mixamorig:LeftHandPinky2
+    400034: mixamorig:LeftHandPinky3
+    400036: mixamorig:LeftHandPinky4
+    400038: mixamorig:LeftHandRing1
+    400040: mixamorig:LeftHandRing2
+    400042: mixamorig:LeftHandRing3
+    400044: mixamorig:LeftHandRing4
+    400046: mixamorig:LeftHandThumb1
+    400048: mixamorig:LeftHandThumb2
+    400050: mixamorig:LeftHandThumb3
+    400052: mixamorig:LeftHandThumb4
+    400054: mixamorig:LeftLeg
+    400056: mixamorig:LeftShoulder
+    400058: mixamorig:LeftToe_End
+    400060: mixamorig:LeftToeBase
+    400062: mixamorig:LeftUpLeg
+    400064: mixamorig:Neck
+    400066: mixamorig:RightArm
+    400068: mixamorig:RightFoot
+    400070: mixamorig:RightForeArm
+    400072: mixamorig:RightHand
+    400074: mixamorig:RightHandIndex1
+    400076: mixamorig:RightHandIndex2
+    400078: mixamorig:RightHandIndex3
+    400080: mixamorig:RightHandIndex4
+    400082: mixamorig:RightHandMiddle1
+    400084: mixamorig:RightHandMiddle2
+    400086: mixamorig:RightHandMiddle3
+    400088: mixamorig:RightHandMiddle4
+    400090: mixamorig:RightHandPinky1
+    400092: mixamorig:RightHandPinky2
+    400094: mixamorig:RightHandPinky3
+    400096: mixamorig:RightHandPinky4
+    400098: mixamorig:RightHandRing1
+    400100: mixamorig:RightHandRing2
+    400102: mixamorig:RightHandRing3
+    400104: mixamorig:RightHandRing4
+    400106: mixamorig:RightHandThumb1
+    400108: mixamorig:RightHandThumb2
+    400110: mixamorig:RightHandThumb3
+    400112: mixamorig:RightHandThumb4
+    400114: mixamorig:RightLeg
+    400116: mixamorig:RightShoulder
+    400118: mixamorig:RightToe_End
+    400120: mixamorig:RightToeBase
+    400122: mixamorig:RightUpLeg
+    400124: mixamorig:Spine
+    400126: mixamorig:Spine1
+    400128: mixamorig:Spine2
+    400130: //RootNode
+    400132: woman body 001
+    400134: woman body 001.1
+    400136: woman body 001.2
+    400138: woman body 001.3
+    400140: woman body 001.4
+    400142: woman body 001.5
+    400144: woman body 001.6
+    400146: woman eyes 001
+    400148: woman eyes 001.1
+    400150: woman glasses 001
+    400152: woman glasses 001.1
+    400154: woman glasses 001.2
+    400156: woman glasses 001.3
+    400158: woman hair 001
+    400160: woman hair 001.1
+    400162: woman hair 001.2
+    400164: woman hair 001.3
+    400166: woman hair 002
+    400168: woman hair 002.1
+    400170: woman hair 002.2
+    400172: woman hair 003
+    400174: woman hair 003.1
+    400176: woman hair 003.2
+    400178: woman hair 003.3
+    400180: woman hair 003.4
+    400182: woman hair 004
+    400184: woman hair 004.1
+    400186: woman hair 004.2
+    400188: woman hair 005
+    400190: woman hair 005.1
+    400192: woman hair 005.2
+    400194: woman hair 005.3
+    400196: woman hair 005.4
+    400198: woman head 001
+    400200: woman head 001.1
+    400202: woman head 001.2
+    400204: woman head 001.3
+    400206: woman shirt long sleeves 001
+    400208: woman shirt long sleeves 001.1
+    400210: woman shirt long sleeves 001.2
+    400212: woman shirt short sleeves 001
+    400214: woman shirt short sleeves 001.1
+    400216: woman shirt short sleeves 001.2
+    400218: woman shoes 001
+    400220: woman shoes 001.1
+    400222: woman top 001
+    400224: woman top 001.1
+    400226: woman top 001.2
+    400228: woman top 001.3
+    400230: woman trouses 001
+    400232: woman trouses 001.1
+    400234: woman vest 001
+    400236: woman vest 001.1
+    400238: woman vest 001.2
+    4300000: woman eyes 001
+    4300002: woman eyes 001.1
+    4300004: woman glasses 001
+    4300006: woman glasses 001.1
+    4300008: woman glasses 001.2
+    4300010: woman glasses 001.3
+    4300012: woman head 001
+    4300014: woman head 001.2
+    4300016: woman head 001.3
+    4300018: woman head 001.1
+    4300020: woman shirt long sleeves 001
+    4300022: woman shirt long sleeves 001.1
+    4300024: woman shirt long sleeves 001.2
+    4300026: woman shirt short sleeves 001
+    4300028: woman shirt short sleeves 001.1
+    4300030: woman shirt short sleeves 001.2
+    4300032: woman shoes 001
+    4300034: woman shoes 001.1
+    4300036: woman top 001
+    4300038: woman top 001.1
+    4300040: woman top 001.2
+    4300042: woman top 001.3
+    4300044: woman trouses 001
+    4300046: woman trouses 001.1
+    4300048: woman hair 004
+    4300050: woman hair 004.2
+    4300052: woman hair 004.1
+    4300054: woman hair 003
+    4300056: woman hair 003.1
+    4300058: woman hair 003.4
+    4300060: woman hair 003.3
+    4300062: woman hair 003.2
+    4300064: woman hair 001
+    4300066: woman hair 001.1
+    4300068: woman hair 001.2
+    4300070: woman hair 001.3
+    4300072: woman vest 001
+    4300074: woman vest 001.2
+    4300076: woman vest 001.1
+    4300078: woman body 001
+    4300080: woman body 001.4
+    4300082: woman body 001.2
+    4300084: woman body 001.5
+    4300086: woman body 001.6
+    4300088: woman body 001.1
+    4300090: woman body 001.3
+    4300092: woman hair 002
+    4300094: woman hair 002.2
+    4300096: woman hair 002.1
+    4300098: woman hair 005
+    4300100: woman hair 005.3
+    4300102: woman hair 005.1
+    4300104: woman hair 005.2
+    4300106: woman hair 005.4
+    7400000: mixamo.com
+    9500000: //RootNode
+    13700000: woman body 001
+    13700002: woman body 001.1
+    13700004: woman body 001.2
+    13700006: woman body 001.3
+    13700008: woman body 001.4
+    13700010: woman body 001.5
+    13700012: woman body 001.6
+    13700014: woman eyes 001
+    13700016: woman eyes 001.1
+    13700018: woman glasses 001
+    13700020: woman glasses 001.1
+    13700022: woman glasses 001.2
+    13700024: woman glasses 001.3
+    13700026: woman hair 001
+    13700028: woman hair 001.1
+    13700030: woman hair 001.2
+    13700032: woman hair 001.3
+    13700034: woman hair 002
+    13700036: woman hair 002.1
+    13700038: woman hair 002.2
+    13700040: woman hair 003
+    13700042: woman hair 003.1
+    13700044: woman hair 003.2
+    13700046: woman hair 003.3
+    13700048: woman hair 003.4
+    13700050: woman hair 004
+    13700052: woman hair 004.1
+    13700054: woman hair 004.2
+    13700056: woman hair 005
+    13700058: woman hair 005.1
+    13700060: woman hair 005.2
+    13700062: woman hair 005.3
+    13700064: woman hair 005.4
+    13700066: woman head 001
+    13700068: woman head 001.1
+    13700070: woman head 001.2
+    13700072: woman head 001.3
+    13700074: woman shirt long sleeves 001
+    13700076: woman shirt long sleeves 001.1
+    13700078: woman shirt long sleeves 001.2
+    13700080: woman shirt short sleeves 001
+    13700082: woman shirt short sleeves 001.1
+    13700084: woman shirt short sleeves 001.2
+    13700086: woman shoes 001
+    13700088: woman shoes 001.1
+    13700090: woman top 001
+    13700092: woman top 001.1
+    13700094: woman top 001.2
+    13700096: woman top 001.3
+    13700098: woman trouses 001
+    13700100: woman trouses 001.1
+    13700102: woman vest 001
+    13700104: woman vest 001.1
+    13700106: woman vest 001.2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

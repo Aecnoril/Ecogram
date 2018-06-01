@@ -47,5 +47,13 @@ namespace Assets.scripts.backend.character
         }
         #endregion
 
+        public void InitiateChar()
+        {
+            RaycastHit hit;
+            Physics.Raycast(transform.position + new Vector3(0, 5, 0), Vector3.down, out hit, 25f);
+
+            transform.position = hit.point + (Vector3.up * 2);
+        }
+
     }
 }

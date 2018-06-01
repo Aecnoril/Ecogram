@@ -658,7 +658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59109a438b7fd4498244c451e9c9bd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charPrefab: {fileID: 1823309566533462, guid: f6f50976da6238840bc7f4280862df59, type: 2}
+  charPrefab: {fileID: 1187943768025328, guid: c85cc02b4bf2b2448bbf363e9834d770, type: 2}
   charManager: {fileID: 0}
   objectiveManager: {fileID: 94952645}
   fadeMat: {fileID: 2100000, guid: 8ef5c4f5cc35eaf46ac2f2f1da7efcd3, type: 2}
@@ -2365,6 +2365,17 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224453174300474968, guid: 3e2160c3fdeb353469515300665b53a9,
     type: 2}
   m_PrefabInternal: {fileID: 1623724811}
+--- !u!114 &919571869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 919571867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b9591e80c4d3042bb35315b58b4026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &944418253
 Prefab:
   m_ObjectHideFlags: 0
