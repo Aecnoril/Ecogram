@@ -35,6 +35,7 @@ public class TriggerViewport : MonoBehaviour
             }
         }
         CloseCharacter();
+        selectedCharacter = null;
 
     }
 

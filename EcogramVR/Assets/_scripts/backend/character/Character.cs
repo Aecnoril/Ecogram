@@ -56,9 +56,10 @@ namespace Assets.scripts.backend.character
         public void InitiateChar()
         {
             RaycastHit hit;
-            Physics.Raycast(transform.position + new Vector3(0, 5, 0), Vector3.down, out hit, 25f);
+            Physics.Raycast(transform.position + new Vector3(0, 10, 0), Vector3.down, out hit, 50f, LayerMask.GetMask("Terrain"));
+            Debug.DrawLine(transform.position + new Vector3(0, 10, 0), hit.point, Color.red, 2.0f);
 
-            transform.position = hit.point + (Vector3.up * 0.2f);
+            transform.position = hit.point;
         }
 
         public void OpenCharacter()

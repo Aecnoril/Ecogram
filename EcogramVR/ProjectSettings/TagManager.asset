@@ -17,9 +17,9 @@ TagManager:
   - 
   - 
   - ControllerCollider
+  - Terrain
   - ViewportRay
-  - ViewportRay2
-  - 
+  - ViewportRauy2
   - 
   - 
   - 
