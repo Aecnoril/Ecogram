@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 224241866986345884}
   - component: {fileID: 222670553586861992}
   - component: {fileID: 114643273108105716}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224222030463453250}
   - component: {fileID: 114901305881243476}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ToggleGroup haarstijl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   - component: {fileID: 224172838258663226}
   - component: {fileID: 222357723218804726}
   - component: {fileID: 114733188042648234}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 224215465462642666}
   - component: {fileID: 222107892349024250}
   - component: {fileID: 114398392816381702}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 224636529257336164}
   - component: {fileID: 222211865153914346}
   - component: {fileID: 114638845841394938}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 224928827999392528}
   - component: {fileID: 114536676454891164}
   - component: {fileID: 114602882477179406}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ToggleGroup haarkleur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 224245728240027910}
   - component: {fileID: 222858790794406138}
   - component: {fileID: 114163752744274576}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 114696602382352330}
   - component: {fileID: 135041765908324250}
   - component: {fileID: 114597880096999656}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -485,7 +485,7 @@ GameObject:
   - component: {fileID: 224280405301261146}
   - component: {fileID: 222688128541609608}
   - component: {fileID: 114081054036641966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -641,7 +641,7 @@ GameObject:
   - component: {fileID: 114688401098846014}
   - component: {fileID: 135283326115622396}
   - component: {fileID: 114733890415924148}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: haarkleur 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -658,7 +658,7 @@ GameObject:
   - component: {fileID: 224052688075895998}
   - component: {fileID: 222525137964961978}
   - component: {fileID: 114461078615617500}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -752,7 +752,7 @@ GameObject:
   - component: {fileID: 224185408392883890}
   - component: {fileID: 222376397962884558}
   - component: {fileID: 114439052388110074}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -770,7 +770,7 @@ GameObject:
   - component: {fileID: 114522842781291816}
   - component: {fileID: 135099225711910534}
   - component: {fileID: 114551969336800570}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -818,7 +818,7 @@ GameObject:
   - component: {fileID: 114711747355297008}
   - component: {fileID: 135690998597339894}
   - component: {fileID: 114896050600047984}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -835,7 +835,7 @@ GameObject:
   - component: {fileID: 224850054699987106}
   - component: {fileID: 222569763024227418}
   - component: {fileID: 114195284795735350}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -899,7 +899,7 @@ GameObject:
   - component: {fileID: 224367565693854940}
   - component: {fileID: 222566797473480474}
   - component: {fileID: 114473483727850524}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -917,7 +917,7 @@ GameObject:
   - component: {fileID: 223371098600244976}
   - component: {fileID: 114380003147272492}
   - component: {fileID: 114007635820378190}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: canvas shirt man
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -935,7 +935,7 @@ GameObject:
   - component: {fileID: 223298998920643270}
   - component: {fileID: 114372985659519638}
   - component: {fileID: 114026336333953686}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: canvas overig man
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -953,7 +953,7 @@ GameObject:
   - component: {fileID: 114828185016682416}
   - component: {fileID: 135709836627049826}
   - component: {fileID: 114350116354410394}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -986,7 +986,7 @@ GameObject:
   - component: {fileID: 224573483396404620}
   - component: {fileID: 222056601826407172}
   - component: {fileID: 114641108630306152}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1003,7 +1003,7 @@ GameObject:
   - component: {fileID: 224256119199624956}
   - component: {fileID: 222175576490928944}
   - component: {fileID: 114844067897098404}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1021,7 +1021,7 @@ GameObject:
   - component: {fileID: 114964134457812630}
   - component: {fileID: 135869403639422408}
   - component: {fileID: 114603905960044704}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1039,7 +1039,7 @@ GameObject:
   - component: {fileID: 114990599914139342}
   - component: {fileID: 135832466205885994}
   - component: {fileID: 114197763527646130}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle kleur3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1057,7 +1057,7 @@ GameObject:
   - component: {fileID: 114657819618742670}
   - component: {fileID: 135411581211095698}
   - component: {fileID: 114809897658895282}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1090,7 +1090,7 @@ GameObject:
   - component: {fileID: 224876710472427710}
   - component: {fileID: 222703813761811334}
   - component: {fileID: 114327104683669410}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1107,7 +1107,7 @@ GameObject:
   - component: {fileID: 224246684630825452}
   - component: {fileID: 222278297165368438}
   - component: {fileID: 114136345525761182}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1124,7 +1124,7 @@ GameObject:
   - component: {fileID: 224285667685245342}
   - component: {fileID: 222621514423853530}
   - component: {fileID: 114643194487406932}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1141,7 +1141,7 @@ GameObject:
   - component: {fileID: 224462107563554544}
   - component: {fileID: 222799478279049264}
   - component: {fileID: 114442620916800102}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1158,7 +1158,7 @@ GameObject:
   - component: {fileID: 224448110166257108}
   - component: {fileID: 222691924306898262}
   - component: {fileID: 114348829834246238}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1175,7 +1175,7 @@ GameObject:
   - component: {fileID: 224453459074711398}
   - component: {fileID: 222578532947638090}
   - component: {fileID: 114550136672908302}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1192,7 +1192,7 @@ GameObject:
   - component: {fileID: 224935261845164440}
   - component: {fileID: 222560901303410142}
   - component: {fileID: 114929028384288564}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1209,7 +1209,7 @@ GameObject:
   - component: {fileID: 224900086528830988}
   - component: {fileID: 222615441296859164}
   - component: {fileID: 114790536518824070}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1272,7 +1272,7 @@ GameObject:
   - component: {fileID: 224033475299975542}
   - component: {fileID: 222327870891359624}
   - component: {fileID: 114165118677323108}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1305,7 +1305,7 @@ GameObject:
   - component: {fileID: 224700690539532834}
   - component: {fileID: 222398092654726958}
   - component: {fileID: 114534363736705862}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1383,7 +1383,7 @@ GameObject:
   - component: {fileID: 224184708592748608}
   - component: {fileID: 222989816682140334}
   - component: {fileID: 114820334628771164}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1400,7 +1400,7 @@ GameObject:
   - component: {fileID: 224971537759744942}
   - component: {fileID: 222034903008421036}
   - component: {fileID: 114847699631858528}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1434,7 +1434,7 @@ GameObject:
   - component: {fileID: 114160269757551904}
   - component: {fileID: 135132917046861742}
   - component: {fileID: 114291916056169260}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1468,7 +1468,7 @@ GameObject:
   - component: {fileID: 114360864268478176}
   - component: {fileID: 135682411676939484}
   - component: {fileID: 114352681642689318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1485,7 +1485,7 @@ GameObject:
   - component: {fileID: 224201225486957592}
   - component: {fileID: 222015297417174198}
   - component: {fileID: 114504291454437904}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1502,7 +1502,7 @@ GameObject:
   - component: {fileID: 224591944923160826}
   - component: {fileID: 222042331644483792}
   - component: {fileID: 114082439716634512}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1582,7 +1582,7 @@ GameObject:
   - component: {fileID: 114713508570450272}
   - component: {fileID: 135995496525910294}
   - component: {fileID: 114599182599175638}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1679,7 +1679,7 @@ GameObject:
   - component: {fileID: 114599372786586300}
   - component: {fileID: 135596245274384758}
   - component: {fileID: 114619693137266220}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1696,7 +1696,7 @@ GameObject:
   - component: {fileID: 224097784025150772}
   - component: {fileID: 222106710751415094}
   - component: {fileID: 114941784582909794}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1714,7 +1714,7 @@ GameObject:
   - component: {fileID: 223295264225667424}
   - component: {fileID: 114943193686851748}
   - component: {fileID: 114449932152347616}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: canvas huidskleur vrouw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1778,7 +1778,7 @@ GameObject:
   - component: {fileID: 114250500130269828}
   - component: {fileID: 135772129800218254}
   - component: {fileID: 114255723202439564}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1794,7 +1794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224969119784140064}
   - component: {fileID: 114204612836691272}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ToggleGroup huidskleur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1827,7 +1827,7 @@ GameObject:
   - component: {fileID: 224237412441053720}
   - component: {fileID: 222982023379697208}
   - component: {fileID: 114130904083737094}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1892,7 +1892,7 @@ GameObject:
   - component: {fileID: 224044141307523416}
   - component: {fileID: 222894648294468290}
   - component: {fileID: 114066749574176174}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1938,7 +1938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224511403103584458}
   - component: {fileID: 114938509854320588}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ToggleGroup haarstijl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1955,7 +1955,7 @@ GameObject:
   - component: {fileID: 224793906882419022}
   - component: {fileID: 222530308832044214}
   - component: {fileID: 114829051708252612}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1972,7 +1972,7 @@ GameObject:
   - component: {fileID: 224584506828615358}
   - component: {fileID: 222599447817109964}
   - component: {fileID: 114991910063582570}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1988,7 +1988,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224099791017260824}
   - component: {fileID: 114732208843981752}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ToggleGroup haarstijl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2005,7 +2005,7 @@ GameObject:
   - component: {fileID: 224098379980391966}
   - component: {fileID: 222999233096256232}
   - component: {fileID: 114912303284859312}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2037,7 +2037,7 @@ GameObject:
   - component: {fileID: 224514890458478226}
   - component: {fileID: 222485564062186244}
   - component: {fileID: 114107803641665860}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2055,7 +2055,7 @@ GameObject:
   - component: {fileID: 114332769411666580}
   - component: {fileID: 135024840990641986}
   - component: {fileID: 114889227154053124}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2119,7 +2119,7 @@ GameObject:
   - component: {fileID: 224162412416228144}
   - component: {fileID: 222034005897043524}
   - component: {fileID: 114838123091983120}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2136,7 +2136,7 @@ GameObject:
   - component: {fileID: 224609568636515892}
   - component: {fileID: 222067047018545508}
   - component: {fileID: 114697533398939874}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2153,7 +2153,7 @@ GameObject:
   - component: {fileID: 224719429277081862}
   - component: {fileID: 222181852676123064}
   - component: {fileID: 114282254946147576}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2185,7 +2185,7 @@ GameObject:
   - component: {fileID: 224204148095497862}
   - component: {fileID: 222053381060499124}
   - component: {fileID: 114054191232844256}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2203,7 +2203,7 @@ GameObject:
   - component: {fileID: 114735367939664730}
   - component: {fileID: 135983190520088784}
   - component: {fileID: 114705118280305566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2220,7 +2220,7 @@ GameObject:
   - component: {fileID: 224474623369825514}
   - component: {fileID: 222962054942883592}
   - component: {fileID: 114902093533157278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2269,7 +2269,7 @@ GameObject:
   - component: {fileID: 114303254939612256}
   - component: {fileID: 135649174857252026}
   - component: {fileID: 114987180060980592}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2332,7 +2332,7 @@ GameObject:
   - component: {fileID: 224223382393188848}
   - component: {fileID: 222749791708006234}
   - component: {fileID: 114657815610139400}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2380,7 +2380,7 @@ GameObject:
   - component: {fileID: 224877347093686406}
   - component: {fileID: 222095577508234796}
   - component: {fileID: 114035198674141294}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2429,7 +2429,7 @@ GameObject:
   - component: {fileID: 114594506311472632}
   - component: {fileID: 135972694452603002}
   - component: {fileID: 114363951959180494}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle kleur2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2461,7 +2461,7 @@ GameObject:
   - component: {fileID: 224563241850388034}
   - component: {fileID: 222861099466634722}
   - component: {fileID: 114459927408702990}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2508,7 +2508,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224930348626365950}
   - component: {fileID: 114345740009154032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ToggleGroup haarstijl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2525,7 +2525,7 @@ GameObject:
   - component: {fileID: 224678636866570818}
   - component: {fileID: 222344405992425672}
   - component: {fileID: 114987569053271970}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2542,7 +2542,7 @@ GameObject:
   - component: {fileID: 224775310531575584}
   - component: {fileID: 222580801924422204}
   - component: {fileID: 114724578148952834}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2575,7 +2575,7 @@ GameObject:
   - component: {fileID: 224968110179841626}
   - component: {fileID: 222602201781262064}
   - component: {fileID: 114986854507321788}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2593,7 +2593,7 @@ GameObject:
   - component: {fileID: 223846961004833986}
   - component: {fileID: 114997785875923470}
   - component: {fileID: 114372294389317792}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: canvas broek vrouw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2627,7 +2627,7 @@ GameObject:
   - component: {fileID: 114161000371797652}
   - component: {fileID: 135703934322732182}
   - component: {fileID: 114758447483221154}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: haarkleur 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2660,7 +2660,7 @@ GameObject:
   - component: {fileID: 114444904242902576}
   - component: {fileID: 135818859855799758}
   - component: {fileID: 114010565000606318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle kleur4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2677,7 +2677,7 @@ GameObject:
   - component: {fileID: 224409322695451268}
   - component: {fileID: 222739480648582316}
   - component: {fileID: 114800591733646418}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2742,7 +2742,7 @@ GameObject:
   - component: {fileID: 223157617916501282}
   - component: {fileID: 114373324547626928}
   - component: {fileID: 114121447897865744}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: canvas huidskleur man
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2776,7 +2776,7 @@ GameObject:
   - component: {fileID: 114031704818269118}
   - component: {fileID: 135344117629501446}
   - component: {fileID: 114741076243679350}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2794,7 +2794,7 @@ GameObject:
   - component: {fileID: 223646363018910002}
   - component: {fileID: 114167122556090192}
   - component: {fileID: 114763035544310160}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: canvas overig vrouw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2812,7 +2812,7 @@ GameObject:
   - component: {fileID: 114119267051140474}
   - component: {fileID: 135386013046276254}
   - component: {fileID: 114689366733786756}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2830,7 +2830,7 @@ GameObject:
   - component: {fileID: 114357315294775904}
   - component: {fileID: 135288015509276468}
   - component: {fileID: 114063108148995214}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2848,7 +2848,7 @@ GameObject:
   - component: {fileID: 114747592772082598}
   - component: {fileID: 135314385536821856}
   - component: {fileID: 114492120341655898}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2866,7 +2866,7 @@ GameObject:
   - component: {fileID: 114076539182680884}
   - component: {fileID: 135258890053553892}
   - component: {fileID: 114407375045131648}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3006,7 +3006,7 @@ GameObject:
   - component: {fileID: 224955631020009850}
   - component: {fileID: 222945606104694550}
   - component: {fileID: 114798220258557506}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3056,7 +3056,7 @@ GameObject:
   - component: {fileID: 114177078332652862}
   - component: {fileID: 135592718878747416}
   - component: {fileID: 114093780230244922}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: haarkleur 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3073,7 +3073,7 @@ GameObject:
   - component: {fileID: 224995145755452462}
   - component: {fileID: 222094748055581328}
   - component: {fileID: 114936425116043782}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3091,7 +3091,7 @@ GameObject:
   - component: {fileID: 223445110377073192}
   - component: {fileID: 114200985395765908}
   - component: {fileID: 114851620194728088}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: canvas broek man
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3108,7 +3108,7 @@ GameObject:
   - component: {fileID: 224420081276728896}
   - component: {fileID: 222668240343336728}
   - component: {fileID: 114570033617525558}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3125,7 +3125,7 @@ GameObject:
   - component: {fileID: 224727394793515908}
   - component: {fileID: 222186327757506220}
   - component: {fileID: 114666761016863774}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3142,7 +3142,7 @@ GameObject:
   - component: {fileID: 224248752827306128}
   - component: {fileID: 222967985086011654}
   - component: {fileID: 114543452039311690}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3159,7 +3159,7 @@ GameObject:
   - component: {fileID: 224742286121872878}
   - component: {fileID: 222484829548538800}
   - component: {fileID: 114095587169646698}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3239,7 +3239,7 @@ GameObject:
   - component: {fileID: 114820024252816692}
   - component: {fileID: 135016094844987718}
   - component: {fileID: 114776362660658408}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3302,7 +3302,7 @@ GameObject:
   - component: {fileID: 224191084856676904}
   - component: {fileID: 222206377926674412}
   - component: {fileID: 114910243752679980}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3319,7 +3319,7 @@ GameObject:
   - component: {fileID: 224853992993365844}
   - component: {fileID: 222312305297727552}
   - component: {fileID: 114843443725728714}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3352,7 +3352,7 @@ GameObject:
   - component: {fileID: 114217502651400070}
   - component: {fileID: 135860347633978580}
   - component: {fileID: 114014986182976430}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3369,7 +3369,7 @@ GameObject:
   - component: {fileID: 224598245344187980}
   - component: {fileID: 222329671690742970}
   - component: {fileID: 114562304870761200}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3434,7 +3434,7 @@ GameObject:
   - component: {fileID: 114239546675261666}
   - component: {fileID: 135726461658861570}
   - component: {fileID: 114712621499044926}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3451,7 +3451,7 @@ GameObject:
   - component: {fileID: 224594397572237246}
   - component: {fileID: 222120721082719124}
   - component: {fileID: 114289814060486982}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3498,7 +3498,7 @@ GameObject:
   - component: {fileID: 224424183110290638}
   - component: {fileID: 114119537787887036}
   - component: {fileID: 114597100766870680}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ToggleGroup haarkleur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3764,7 +3764,7 @@ GameObject:
   - component: {fileID: 224220848149140842}
   - component: {fileID: 222590402171308994}
   - component: {fileID: 114737573034054922}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3780,7 +3780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224421385449608200}
   - component: {fileID: 114859132353716048}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ToggleGroup huidskleur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3797,7 +3797,7 @@ GameObject:
   - component: {fileID: 224680465127421398}
   - component: {fileID: 222780936014282444}
   - component: {fileID: 114401702776631088}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3846,7 +3846,7 @@ GameObject:
   - component: {fileID: 224255223063579082}
   - component: {fileID: 222171459000343744}
   - component: {fileID: 114630601235662616}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3878,7 +3878,7 @@ GameObject:
   - component: {fileID: 224085526478162930}
   - component: {fileID: 222605540051720990}
   - component: {fileID: 114922587585965944}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3910,7 +3910,7 @@ GameObject:
   - component: {fileID: 224348844649338718}
   - component: {fileID: 222095953166595084}
   - component: {fileID: 114037211719572754}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3927,7 +3927,7 @@ GameObject:
   - component: {fileID: 224327821063552006}
   - component: {fileID: 222939591250628118}
   - component: {fileID: 114212193121518608}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3944,7 +3944,7 @@ GameObject:
   - component: {fileID: 224211359248831884}
   - component: {fileID: 222902695600642768}
   - component: {fileID: 114476836279545532}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3975,7 +3975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224938283879874302}
   - component: {fileID: 114258522506749232}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ToggleGroup haarstijl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4024,7 +4024,7 @@ GameObject:
   - component: {fileID: 114325688603665558}
   - component: {fileID: 135448917514732790}
   - component: {fileID: 114887545525697390}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle girl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4042,7 +4042,7 @@ GameObject:
   - component: {fileID: 114584669003832362}
   - component: {fileID: 135075260189790686}
   - component: {fileID: 114314640612238734}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle boy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4059,7 +4059,7 @@ GameObject:
   - component: {fileID: 224518716480533086}
   - component: {fileID: 222837680912137070}
   - component: {fileID: 114433777650890086}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4124,7 +4124,7 @@ GameObject:
   - component: {fileID: 224212708329317842}
   - component: {fileID: 222782496400413564}
   - component: {fileID: 114236124652055938}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4157,7 +4157,7 @@ GameObject:
   - component: {fileID: 224024425238861648}
   - component: {fileID: 222358825729954438}
   - component: {fileID: 114848237467523046}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4174,7 +4174,7 @@ GameObject:
   - component: {fileID: 224984740564593602}
   - component: {fileID: 222598570591142882}
   - component: {fileID: 114008488877943624}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4237,7 +4237,7 @@ GameObject:
   - component: {fileID: 224913554652885196}
   - component: {fileID: 222181121801389304}
   - component: {fileID: 114530733973334910}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4288,7 +4288,7 @@ GameObject:
   - component: {fileID: 114128695370205592}
   - component: {fileID: 222890840114685774}
   - component: {fileID: 114021977214791120}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4305,7 +4305,7 @@ GameObject:
   - component: {fileID: 224025816481008284}
   - component: {fileID: 222897625632436888}
   - component: {fileID: 114744297587361090}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4352,7 +4352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224841265700530044}
   - component: {fileID: 114108999576774444}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ToggleGroup haarstijl (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4369,7 +4369,7 @@ GameObject:
   - component: {fileID: 224932374892163084}
   - component: {fileID: 222109533767815442}
   - component: {fileID: 114455734408631968}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4387,7 +4387,7 @@ GameObject:
   - component: {fileID: 114531044609749034}
   - component: {fileID: 135736907578489040}
   - component: {fileID: 114582705190947344}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: haarkleur 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4512,7 +4512,7 @@ GameObject:
   - component: {fileID: 114185835241096646}
   - component: {fileID: 135954626851389484}
   - component: {fileID: 114407835202760762}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4530,7 +4530,7 @@ GameObject:
   - component: {fileID: 114056843743510236}
   - component: {fileID: 135579931661108958}
   - component: {fileID: 114635758637190182}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4564,7 +4564,7 @@ GameObject:
   - component: {fileID: 114628358624024144}
   - component: {fileID: 135055699341167224}
   - component: {fileID: 114415005292978484}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 'Toggle kleur1 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4612,7 +4612,7 @@ GameObject:
   - component: {fileID: 224267200454355310}
   - component: {fileID: 222338386162920250}
   - component: {fileID: 114951370980707846}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4630,7 +4630,7 @@ GameObject:
   - component: {fileID: 114786040617077872}
   - component: {fileID: 135081725478290532}
   - component: {fileID: 114927757974168622}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle kleur3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4647,7 +4647,7 @@ GameObject:
   - component: {fileID: 224380740846679564}
   - component: {fileID: 222991569711258738}
   - component: {fileID: 114301048986591882}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4664,7 +4664,7 @@ GameObject:
   - component: {fileID: 224167256275713534}
   - component: {fileID: 222248813583434238}
   - component: {fileID: 114603895624080958}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4682,7 +4682,7 @@ GameObject:
   - component: {fileID: 114576438448455234}
   - component: {fileID: 135599749520358244}
   - component: {fileID: 114808044755200828}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4776,7 +4776,7 @@ GameObject:
   - component: {fileID: 224547944542885692}
   - component: {fileID: 222596193625085572}
   - component: {fileID: 114189912723616326}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4840,7 +4840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224371331162481650}
   - component: {fileID: 114555713692470450}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ToggleGroup haarstijl (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4857,7 +4857,7 @@ GameObject:
   - component: {fileID: 224676690532840620}
   - component: {fileID: 222657246057459576}
   - component: {fileID: 114276883969160016}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4921,7 +4921,7 @@ GameObject:
   - component: {fileID: 224878738368882412}
   - component: {fileID: 114421886740308278}
   - component: {fileID: 114318836899850520}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ToggleGroup boygirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4939,7 +4939,7 @@ GameObject:
   - component: {fileID: 114595219716493302}
   - component: {fileID: 135279802800632510}
   - component: {fileID: 114215113244392918}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4988,7 +4988,7 @@ GameObject:
   - component: {fileID: 224785775817388862}
   - component: {fileID: 222006905215652144}
   - component: {fileID: 114618635767097096}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5036,7 +5036,7 @@ GameObject:
   - component: {fileID: 114904986846917956}
   - component: {fileID: 135553844324248750}
   - component: {fileID: 114167448122791268}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5084,7 +5084,7 @@ GameObject:
   - component: {fileID: 224072539000407184}
   - component: {fileID: 222298029672108292}
   - component: {fileID: 114980705639137368}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5180,7 +5180,7 @@ GameObject:
   - component: {fileID: 223939897498164808}
   - component: {fileID: 114142156699717372}
   - component: {fileID: 114592528127175788}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: canvas boygirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5213,7 +5213,7 @@ GameObject:
   - component: {fileID: 114272981033949824}
   - component: {fileID: 135224023074567984}
   - component: {fileID: 114682881962357998}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 'Toggle kleur1 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5245,7 +5245,7 @@ GameObject:
   - component: {fileID: 224517880292665194}
   - component: {fileID: 222545700653461170}
   - component: {fileID: 114024179631148226}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5263,7 +5263,7 @@ GameObject:
   - component: {fileID: 114926778487234138}
   - component: {fileID: 135780937516297834}
   - component: {fileID: 114550047749552400}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5328,7 +5328,7 @@ GameObject:
   - component: {fileID: 224316390994658372}
   - component: {fileID: 222356014556488666}
   - component: {fileID: 114612667793082508}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5361,7 +5361,7 @@ GameObject:
   - component: {fileID: 223782309932483860}
   - component: {fileID: 114782770950800980}
   - component: {fileID: 114881545737145640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: canvas shirt vrouw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5426,7 +5426,7 @@ GameObject:
   - component: {fileID: 224236000353065594}
   - component: {fileID: 222180998570754894}
   - component: {fileID: 114634034445922306}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5443,7 +5443,7 @@ GameObject:
   - component: {fileID: 224555765899721714}
   - component: {fileID: 222896356938826976}
   - component: {fileID: 114998208434125220}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5460,7 +5460,7 @@ GameObject:
   - component: {fileID: 224310859028982194}
   - component: {fileID: 222010200912288662}
   - component: {fileID: 114454717263611068}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5492,7 +5492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224339635747642872}
   - component: {fileID: 114516307206808236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ToggleGroup haarstijl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5509,7 +5509,7 @@ GameObject:
   - component: {fileID: 224921506680105474}
   - component: {fileID: 222927716206594248}
   - component: {fileID: 114705981071273346}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5572,7 +5572,7 @@ GameObject:
   - component: {fileID: 224452645782855872}
   - component: {fileID: 222258000442994872}
   - component: {fileID: 114440056984073934}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5606,7 +5606,7 @@ GameObject:
   - component: {fileID: 114714700908250188}
   - component: {fileID: 135743606245558476}
   - component: {fileID: 114025242578287470}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle kleur2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5623,7 +5623,7 @@ GameObject:
   - component: {fileID: 224724128487167760}
   - component: {fileID: 222524046916891988}
   - component: {fileID: 114146581089424390}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5656,7 +5656,7 @@ GameObject:
   - component: {fileID: 224415501055892194}
   - component: {fileID: 222252746793365026}
   - component: {fileID: 114715741705655134}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5688,7 +5688,7 @@ GameObject:
   - component: {fileID: 224316829983742838}
   - component: {fileID: 222533344418244116}
   - component: {fileID: 114038125096182622}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5706,7 +5706,7 @@ GameObject:
   - component: {fileID: 114358476760832866}
   - component: {fileID: 135694399592874862}
   - component: {fileID: 114754751031733366}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: haarkleur 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5723,7 +5723,7 @@ GameObject:
   - component: {fileID: 224907206497570972}
   - component: {fileID: 222930629473861368}
   - component: {fileID: 114159653069926370}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5740,7 +5740,7 @@ GameObject:
   - component: {fileID: 224848433830722510}
   - component: {fileID: 222273155374301142}
   - component: {fileID: 114235866945002494}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5772,7 +5772,7 @@ GameObject:
   - component: {fileID: 224900064835214848}
   - component: {fileID: 222312092578302458}
   - component: {fileID: 114481511690656032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5790,7 +5790,7 @@ GameObject:
   - component: {fileID: 114377406687499142}
   - component: {fileID: 135626975002730112}
   - component: {fileID: 114455670716947462}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5822,7 +5822,7 @@ GameObject:
   - component: {fileID: 224186476247941812}
   - component: {fileID: 222538150794079908}
   - component: {fileID: 114992925478708412}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5855,7 +5855,7 @@ GameObject:
   - component: {fileID: 224792951172297536}
   - component: {fileID: 222079214592256134}
   - component: {fileID: 114166373114750540}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5889,7 +5889,7 @@ GameObject:
   - component: {fileID: 114129419306398244}
   - component: {fileID: 135906111432795182}
   - component: {fileID: 114686679964901482}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5907,7 +5907,7 @@ GameObject:
   - component: {fileID: 114494461777322516}
   - component: {fileID: 135885753424540254}
   - component: {fileID: 114048653211853838}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: haarkleur 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5940,7 +5940,7 @@ GameObject:
   - component: {fileID: 114273266629182416}
   - component: {fileID: 135010649856306000}
   - component: {fileID: 114899161369507782}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: haarkleur 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5974,7 +5974,7 @@ GameObject:
   - component: {fileID: 223294391815377428}
   - component: {fileID: 114026626528222768}
   - component: {fileID: 114605528461890814}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: canvas haar vrouw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5992,7 +5992,7 @@ GameObject:
   - component: {fileID: 114986264926233470}
   - component: {fileID: 135113533441227772}
   - component: {fileID: 114806730888303988}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6009,7 +6009,7 @@ GameObject:
   - component: {fileID: 224081337451332000}
   - component: {fileID: 222678269534632838}
   - component: {fileID: 114858600084719008}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6026,7 +6026,7 @@ GameObject:
   - component: {fileID: 224289596025273774}
   - component: {fileID: 222584535199530180}
   - component: {fileID: 114073934800024026}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6043,7 +6043,7 @@ GameObject:
   - component: {fileID: 224595862306512094}
   - component: {fileID: 222918130039041656}
   - component: {fileID: 114950506431561854}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6060,7 +6060,7 @@ GameObject:
   - component: {fileID: 224846967324439438}
   - component: {fileID: 222072658065540030}
   - component: {fileID: 114439712909795698}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6077,7 +6077,7 @@ GameObject:
   - component: {fileID: 224718143196069264}
   - component: {fileID: 222346720731899870}
   - component: {fileID: 114807710863117556}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6142,7 +6142,7 @@ GameObject:
   - component: {fileID: 224806718721473148}
   - component: {fileID: 222409058398439116}
   - component: {fileID: 114966269562917758}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6174,7 +6174,7 @@ GameObject:
   - component: {fileID: 224848070283139564}
   - component: {fileID: 222691150791844726}
   - component: {fileID: 114470143640003916}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6208,7 +6208,7 @@ GameObject:
   - component: {fileID: 114989097033403464}
   - component: {fileID: 135349252430201166}
   - component: {fileID: 114119037737888046}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle kleur4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6226,7 +6226,7 @@ GameObject:
   - component: {fileID: 114903074460916708}
   - component: {fileID: 135570715847241548}
   - component: {fileID: 114152603780104070}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Toggle haar 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6243,7 +6243,7 @@ GameObject:
   - component: {fileID: 224977574097698814}
   - component: {fileID: 222144515841936752}
   - component: {fileID: 114035885082474606}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6260,7 +6260,7 @@ GameObject:
   - component: {fileID: 224936646484082228}
   - component: {fileID: 222032964218422430}
   - component: {fileID: 114558990451308792}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6278,7 +6278,7 @@ GameObject:
   - component: {fileID: 223432989151069698}
   - component: {fileID: 114754096389192834}
   - component: {fileID: 114208872159290828}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: canvas haar man
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6312,7 +6312,7 @@ GameObject:
   - component: {fileID: 114767135223164456}
   - component: {fileID: 135827886722239072}
   - component: {fileID: 114586400163592166}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: haarkleur 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7915,8 +7915,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1043337648014032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 250.26926, y: 0.5241342, z: 238.11473}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 255.80281, y: 0.2551095, z: 240.73013}
+  m_LocalScale: {x: 1.6, y: 1.6, z: 1.6}
   m_Children:
   - {fileID: 4861517084703060}
   - {fileID: 224428358995211224}
@@ -9342,8 +9342,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5034027, y: 1.3092237, z: 0.1}
-  m_Center: {x: -0.29332733, y: 0.55500126, z: 0}
+  m_Size: {x: 1.5034027, y: 1.3092237, z: 0.38782007}
+  m_Center: {x: -0.29332733, y: 0.55500126, z: 0.14391002}
 --- !u!95 &95774152254371768
 Animator:
   serializedVersion: 3
@@ -24938,8 +24938,8 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1718602157402126}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0.16499996}
+  m_LocalRotation: {x: -0, y: 0.97912, z: -0, w: -0.20328337}
+  m_LocalPosition: {x: 0, y: 0, z: 0.226}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 224866979383766952}
@@ -24955,10 +24955,10 @@ RectTransform:
   - {fileID: 224719372275813804}
   m_Father: {fileID: 4504668302801402}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 203.458, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.5489197, y: 0.676}
+  m_AnchoredPosition: {x: -0.415, y: 0.676}
   m_SizeDelta: {x: 61.9581, y: 60.43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224448110166257108
