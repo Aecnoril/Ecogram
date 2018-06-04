@@ -1552,8 +1552,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.6, z: 1}
-  m_Center: {x: 0, y: 0.12, z: -0.2}
+  m_Size: {x: 0.10000001, y: 0.72461957, z: 1}
+  m_Center: {x: 0.0000000149558, y: 0.05769023, z: -0.20000002}
 --- !u!4 &745045310
 Transform:
   m_ObjectHideFlags: 0
@@ -3765,7 +3765,8 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114532927184361880, guid: 797c432a60178574084b8401e3b9f556, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 797c432a60178574084b8401e3b9f556, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1605321128
@@ -5590,9 +5591,68 @@ Prefab:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114986602251915006, guid: 3841462bb36d54c4b8e143f5eceeccf2, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 3841462bb36d54c4b8e143f5eceeccf2, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2073298850 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1487305217240772, guid: 3841462bb36d54c4b8e143f5eceeccf2,
+    type: 2}
+  m_PrefabInternal: {fileID: 2073298849}
+--- !u!114 &2073298851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2073298850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4153b26428ccf041950b92c057812a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onHandHoverBegin:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 94952642}
+        m_MethodName: SpawnCharacter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onHandHoverEnd:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onAttachedToHand:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onDetachedFromHand:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &2073298852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2073298850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2077103553
 GameObject:
   m_ObjectHideFlags: 0
