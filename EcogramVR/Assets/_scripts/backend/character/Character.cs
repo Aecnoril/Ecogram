@@ -12,6 +12,7 @@ namespace Assets.scripts.backend.character
         private string relation;
         private List<string> supportTypes;
         private List<string> themes;
+        private GameObject menu;
 
         public GameObject charObj;
 
@@ -45,6 +46,11 @@ namespace Assets.scripts.backend.character
             get { return themes; }
             set { themes = value; }
         }
+
+        public GameObject Menu
+        {
+            set { menu = value; }
+        }
         #endregion
 
         public void InitiateChar()
@@ -52,7 +58,17 @@ namespace Assets.scripts.backend.character
             RaycastHit hit;
             Physics.Raycast(transform.position + new Vector3(0, 5, 0), Vector3.down, out hit, 25f);
 
-            transform.position = hit.point + (Vector3.up * 2);
+            transform.position = hit.point + (Vector3.up * 0.2f);
+        }
+
+        public void OpenCharacter()
+        {
+            menu.SetActive(true);
+        }
+
+        public void CloseCharacter()
+        {
+            menu.SetActive(false);
         }
 
     }

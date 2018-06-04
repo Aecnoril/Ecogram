@@ -33,7 +33,7 @@ namespace Assets.scripts.backend.character
         public void CreateCharacter(Vector3 position)
         {
             //If there is a character in the pool, take it out and activate it. Otherwise increase the poolsize
-            if(CharacterPool.Count > 0)
+            if (CharacterPool.Count > 0)
             {
                 GameObject charObj = CharacterPool[CharacterPool.Count - 1];
                 CharacterPool.Remove(charObj);
@@ -80,7 +80,7 @@ namespace Assets.scripts.backend.character
             {
                 GameObject charObj = Instantiate(characterPrefab, Vector3.zero, Quaternion.Euler(-90, 0, 0));
 
-                Character character = new Character();
+                Character character = charObj.AddComponent<Character>();
                 character.charObj = charObj;
                 character.CharacterName = "Naam " + CharacterPool.Count;
                 character.Emotion = "Blij";
@@ -88,7 +88,7 @@ namespace Assets.scripts.backend.character
                 character.SupportTypes = new List<string>();
                 character.Themes = new List<string>();
 
-                charObj.AddComponent<Character>();
+                character.Menu = charObj.transform.GetChild(1).gameObject;
 
                 charObj.SetActive(false);
                 CharacterPool.Add(charObj);
