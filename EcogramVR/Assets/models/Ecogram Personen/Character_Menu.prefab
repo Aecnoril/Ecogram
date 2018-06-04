@@ -152,7 +152,7 @@ GameObject:
   - component: {fileID: 4504668302801402}
   - component: {fileID: 114850381052666958}
   - component: {fileID: 65040107792607186}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Character_Menu
   m_TagString: Character
   m_Icon: {fileID: 0}
@@ -7915,7 +7915,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1043337648014032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 255.80281, y: 0.2551095, z: 240.73013}
+  m_LocalPosition: {x: 256.83237, y: 0.55405694, z: 237.70609}
   m_LocalScale: {x: 1.6, y: 1.6, z: 1.6}
   m_Children:
   - {fileID: 4861517084703060}
@@ -9342,8 +9342,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5034027, y: 1.3092237, z: 0.38782007}
-  m_Center: {x: -0.29332733, y: 0.55500126, z: 0.14391002}
+  m_Size: {x: 1.5034027, y: 1.3092237, z: 0.05607493}
+  m_Center: {x: -0.29332733, y: 0.55500126, z: -0.021962559}
 --- !u!95 &95774152254371768
 Animator:
   serializedVersion: 3

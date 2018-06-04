@@ -17,8 +17,8 @@ TagManager:
   - 
   - 
   - ControllerCollider
-  - 
-  - 
+  - ViewportRay
+  - ViewportRay2
   - 
   - 
   - 

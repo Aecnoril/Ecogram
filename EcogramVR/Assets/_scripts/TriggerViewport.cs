@@ -25,7 +25,7 @@ public class TriggerViewport : MonoBehaviour
     {
         RaycastHit hit;
 
-        if (Physics.Raycast(cameraTransform.position, cameraTransform.forward, out hit, 50))
+        if (Physics.Raycast(cameraTransform.position, cameraTransform.forward, out hit, 50, LayerMask.GetMask("ViewportRay")))
         {
             if (hit.collider.gameObject.tag == "Character")
             {
@@ -33,13 +33,15 @@ public class TriggerViewport : MonoBehaviour
                 Debug.DrawLine(cameraTransform.position, hit.point, Color.red, Time.deltaTime);
                 return;
             }
-            CloseCharacter();
         }
+        CloseCharacter();
 
     }
 
     private void OpenCharacter(Character character)
     {
+        if (selectedCharacter == character)
+            return;
         CloseCharacter();
         selectedCharacter = character;
         character.OpenCharacter();
