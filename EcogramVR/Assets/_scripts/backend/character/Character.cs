@@ -50,6 +50,7 @@ namespace Assets.scripts.backend.character
         public GameObject Menu
         {
             set { menu = value; }
+            get { return menu; }
         }
         #endregion
 
