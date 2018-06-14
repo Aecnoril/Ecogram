@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Assets.scripts.backend.character
 {
@@ -84,11 +85,14 @@ namespace Assets.scripts.backend.character
                 character.charObj = charObj;
                 character.CharacterName = "Naam " + CharacterPool.Count;
                 character.Emotion = "Blij";
-                character.Relation = "";
+                character.Relation = "Vriend";
                 character.SupportTypes = new List<string>();
+                character.SupportTypes.Add("Gamen");
                 character.Themes = new List<string>();
+                character.Themes.Add("Feest");
 
                 character.Menu = charObj.transform.GetChild(1).gameObject;
+                charObj.transform.GetChild(2).GetComponent<TextMesh>().text = character.CharacterName;
 
                 charObj.SetActive(false);
                 CharacterPool.Add(charObj);

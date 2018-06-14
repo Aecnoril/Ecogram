@@ -4,17 +4,18 @@ using UnityEngine;
 
 public class LookAtTarget : MonoBehaviour
 {
-	public Transform target;
+    public Transform target;
 
     private void Start()
     {
-        target = Camera.main.transform;
+        if (target == null)
+            target = Camera.main.transform;
     }
 
     void Update()
-	{
-		if(target != null)
-		{
+    {
+        if (target != null)
+        {
 
             Vector3 lookPos = target.position;
             lookPos.y = transform.position.y;
@@ -22,5 +23,5 @@ public class LookAtTarget : MonoBehaviour
             transform.Rotate(new Vector3(0, 0, 0));
         }
 
-	}
+    }
 }
