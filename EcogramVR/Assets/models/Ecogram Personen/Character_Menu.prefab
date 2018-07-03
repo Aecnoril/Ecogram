@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 114850381052666958}
   - component: {fileID: 65785521326699560}
   - component: {fileID: 114910120375154898}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Character_Menu
   m_TagString: Character
   m_Icon: {fileID: 0}

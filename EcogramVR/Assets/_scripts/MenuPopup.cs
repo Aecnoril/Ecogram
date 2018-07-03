@@ -23,6 +23,8 @@ public class MenuPopup : MonoBehaviour {
     private Text charSupport;
     private Text charTheme;
 
+    bool trackMovement = false;
+
 
     private bool playerNear = false;
 
@@ -58,7 +60,7 @@ public class MenuPopup : MonoBehaviour {
             menu = null;
         }
 
-        if (playerNear)
+        if (playerNear && trackMovement)
         {
             Vector3 newPos = mainCam.transform.position;
             newPos += mainCam.transform.forward * menuDistance;
@@ -70,6 +72,11 @@ public class MenuPopup : MonoBehaviour {
             charEmotion.text = character.Emotion;
             charSupport.text = character.SupportTypes[0];
             charTheme.text = character.Themes[0];
+        }
+        if(!trackMovement)
+        {
+            Vector3 newPos = character.charObj.transform.position;
+            newPos += character.charObj.transform.right * menuOffsetX;
         }
 	}
 

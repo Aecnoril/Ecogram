@@ -24,7 +24,7 @@ public class Viewport : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         RaycastHit hit;
-        Physics.Raycast(cameraTransform.position, cameraTransform.forward, out hit, 50);
+        Physics.Raycast(cameraTransform.position, cameraTransform.forward, out hit, 50, LayerMask.GetMask("ViewportRay"));
         if (hit.collider == viewportHitbox)
             isHit = true;
         else

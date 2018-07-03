@@ -6,15 +6,19 @@ namespace Assets.scripts.backend.character
 {
     public class Character : MonoBehaviour
     {
-        
+
         private string characterName;
         private string emotion;
         private string relation;
         private List<string> supportTypes;
         private List<string> themes;
         private GameObject menu;
+        private GameObject bookPos;
 
         public GameObject charObj;
+
+        private GameObject newBut;
+        private GameObject delBut;
 
         #region Properties
         public string CharacterName
@@ -52,6 +56,24 @@ namespace Assets.scripts.backend.character
             set { menu = value; }
             get { return menu; }
         }
+
+        public GameObject BookPos
+        {
+            get { return bookPos; }
+            set { bookPos = value; }
+        }
+
+        public GameObject DelBut
+        {
+            get { return delBut; }
+            set { delBut = value; }
+        }
+
+        public GameObject NewBut
+        {
+            get { return newBut; }
+            set { newBut = value; }
+        }
         #endregion
 
         public void InitiateChar()
@@ -71,6 +93,20 @@ namespace Assets.scripts.backend.character
         public void CloseCharacter()
         {
             menu.SetActive(false);
+        }
+
+        private void Update()
+        {
+            if (gameObject.GetComponent<Collider>().bounds.Contains(BookPos.transform.position))
+            {
+                newBut.SetActive(false);
+                delBut.SetActive(true);
+            }
+            else
+            {
+                newBut.SetActive(true);
+                delBut.SetActive(false);
+            }
         }
 
     }

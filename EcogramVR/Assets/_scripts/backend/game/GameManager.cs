@@ -56,6 +56,7 @@ namespace Assets.scripts.backend.game
         void Update()
         {
             if (Input.GetKeyDown(KeyCode.K)) SpawnCharacter();
+            if (Input.GetKeyDown(KeyCode.J)) charManager.RemoveCharater();
         }
 
         void FadeTable()

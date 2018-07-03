@@ -8,6 +8,8 @@ public class LookAtTarget : MonoBehaviour
 
     private void Start()
     {
+        target = GameObject.Find("Table").transform;
+
         if (target == null)
             target = Camera.main.transform;
     }

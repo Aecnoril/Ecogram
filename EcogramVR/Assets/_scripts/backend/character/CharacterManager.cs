@@ -20,24 +20,42 @@ namespace Assets.scripts.backend.character
         private int characterPoolSize = 16;
 
         private List<GameObject> CharacterPool; //Character pool to avoid constant initializing
+        private List<GameObject> UsedCharacters;
 
-        //private List<Character> characters;
+        private GameObject book;
+        private GameObject delBut;
+        private GameObject newBut;
 
         private void OnEnable()
         {
+            book = GameObject.Find("PlayerBook");
+            newBut = GameObject.Find("Menu_New");
+            delBut = GameObject.Find("Menu_Delete");
+
             CharacterPool = new List<GameObject>();
+            UsedCharacters = new List<GameObject>();
             characterPrefab = GameManager.instance.charPrefab;
             IncreasePool(characterPoolSize);
+
         }
 
         #region Character modifications
         public void CreateCharacter(Vector3 position)
         {
+            foreach (GameObject charObj in UsedCharacters)
+            {
+                if (charObj.GetComponent<Collider>().bounds.Contains(position))
+                {
+                    return;
+                }
+            }
+
             //If there is a character in the pool, take it out and activate it. Otherwise increase the poolsize
             if (CharacterPool.Count > 0)
             {
                 GameObject charObj = CharacterPool[CharacterPool.Count - 1];
                 CharacterPool.Remove(charObj);
+                UsedCharacters.Add(charObj);
                 charObj.SetActive(true);
                 charObj.transform.position = position;
                 charObj.GetComponent<Character>().InitiateChar();
@@ -46,17 +64,30 @@ namespace Assets.scripts.backend.character
             {
                 Debug.Log("Pool ran out! Increasing size..");
                 IncreasePool(characterPoolSize);
+                CreateCharacter(position);
             }
         }
 
-        public void RemoveCharater(GameObject charObj)
+        public void RemoveCharater()
         {
-            charObj.SetActive(false);
-            //Put the character back in the pool. If the pool is overflowing, delete character
-            if (CharacterPool.Count < characterPoolSize)
-                CharacterPool.Add(charObj);
-            else
-                Destroy(charObj);
+            foreach (GameObject go in UsedCharacters)
+            {
+                if (go.GetComponent<Collider>().bounds.Contains(book.transform.position))
+                {
+                    go.SetActive(false);
+                    //Put the character back in the pool. If the pool is overflowing, delete character
+                    if (CharacterPool.Count < characterPoolSize)
+                    {
+                        UsedCharacters.Remove(go);
+                        CharacterPool.Add(go);
+                    }
+                    else
+                        Destroy(go);
+                    delBut.SetActive(false);
+                    newBut.SetActive(true);
+                    return;
+                }
+            }
         }
 
         public void EditCharacter()
@@ -83,13 +114,21 @@ namespace Assets.scripts.backend.character
 
                 Character character = charObj.AddComponent<Character>();
                 character.charObj = charObj;
+                character.BookPos = book;
+                character.NewBut = newBut;
+                character.DelBut = delBut;
+
                 character.CharacterName = "Naam " + CharacterPool.Count;
                 character.Emotion = "Blij";
                 character.Relation = "Vriend";
-                character.SupportTypes = new List<string>();
-                character.SupportTypes.Add("Gamen");
-                character.Themes = new List<string>();
-                character.Themes.Add("Feest");
+                character.SupportTypes = new List<string>
+                {
+                    "Gamen"
+                };
+                character.Themes = new List<string>
+                {
+                    "Feest"
+                };
 
                 character.Menu = charObj.transform.GetChild(1).gameObject;
                 charObj.transform.GetChild(2).GetComponent<TextMesh>().text = character.CharacterName;
